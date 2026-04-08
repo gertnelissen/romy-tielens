@@ -47,7 +47,7 @@ export function Footer() {
           <h3 className="font-semibold text-white mb-3">Erkenningen</h3>
           <ul className="text-sm space-y-1">
             <li>Visum: 261431</li>
-            <li>Psychologencie: 942123340</li>
+            <li>Psychologencommissie: 942123340</li>
           </ul>
         </div>
       </div>
