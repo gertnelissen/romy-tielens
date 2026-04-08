@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -36,8 +37,15 @@ export default function Home() {
       {/* Intro */}
       <section className="py-20">
         <div className="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-          <div className="bg-sage-100 rounded-2xl aspect-[4/5] flex items-center justify-center text-sage-400 text-sm">
-            Foto Romy
+          <div className="relative rounded-2xl aspect-[4/5] overflow-hidden">
+            <Image
+              src="/romy.jpg"
+              alt="Romy Tielens — klinisch psycholoog"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
+              priority
+            />
           </div>
           <div>
             <h2 className="font-[var(--font-serif)] text-3xl text-sage-800 mb-4">

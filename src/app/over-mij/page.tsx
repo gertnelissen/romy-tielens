@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -23,8 +24,15 @@ export default function OverMij() {
       <section className="py-16">
         <div className="max-w-3xl mx-auto px-6 space-y-12">
           <div className="grid md:grid-cols-[280px_1fr] gap-10 items-start">
-            <div className="bg-sage-100 rounded-2xl aspect-square flex items-center justify-center text-sage-400 text-sm">
-              Foto Romy
+            <div className="relative rounded-2xl aspect-square overflow-hidden">
+              <Image
+                src="/romy-bw.jpeg"
+                alt="Romy Tielens"
+                fill
+                className="object-cover"
+                sizes="280px"
+                priority
+              />
             </div>
             <div className="space-y-4 text-sage-700/80 leading-relaxed">
               <p>
