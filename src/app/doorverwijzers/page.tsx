@@ -60,7 +60,7 @@ export default function Doorverwijzers() {
                       <br />
                       Postgraduaat Integratieve Psychotherapie — UAntwerpen
                       <br />
-                      Postgraduaat kPNI — Hogeschool PXL (lopend)
+                      Postgraduaat kPNI — Hogeschool PXL
                     </p>
                   </div>
                   <div>

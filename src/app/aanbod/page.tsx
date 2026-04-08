@@ -18,6 +18,7 @@ const topics = [
     title: "Depressie & somberheid",
     description:
       "Aanhoudende somberheid, verlies van interesse of motivatie, vermoeidheid en gevoelens van hopeloosheid.",
+    href: "/aanbod/depressie",
   },
   {
     title: "Burn-out & stress",
@@ -29,6 +30,7 @@ const topics = [
     title: "Perfectionisme",
     description:
       "Onrealistische verwachtingen naar jezelf, faalangst, moeite met fouten maken en nooit tevreden zijn.",
+    href: "/aanbod/perfectionisme",
   },
   {
     title: "Trauma",
@@ -40,36 +42,43 @@ const topics = [
     title: "Rouw & verlies",
     description:
       "Omgaan met het verlies van een dierbare, een relatie, werk of gezondheid.",
+    href: "/aanbod/rouw",
   },
   {
     title: "Relatieconflicten",
     description:
       "Terugkerende patronen in relaties, communicatieproblemen of moeilijkheden in de band met anderen.",
+    href: "/aanbod/relatieconflicten",
   },
   {
     title: "Hoogsensitiviteit",
     description:
       "Leren omgaan met prikkels, grenzen stellen en je kwaliteiten als hoogsensitief persoon benutten.",
+    href: "/aanbod/hoogsensitiviteit",
   },
   {
     title: "Vruchtbaarheid & kinderwens",
     description:
       "De emotionele impact van fertiliteitstrajecten, miskramen of een onvervulde kinderwens.",
+    href: "/aanbod/vruchtbaarheid",
   },
   {
     title: "Postpartum depressie",
     description:
       "Sombere gevoelens, angst of overweldiging na de geboorte van een kind.",
+    href: "/aanbod/postpartum",
   },
   {
     title: "Zelfverwonding",
     description:
       "Begeleiding bij zelfbeschadigend gedrag en het ontwikkelen van gezondere copingstrategieën.",
+    href: "/aanbod/zelfverwonding",
   },
   {
     title: "Middelengebruik",
     description:
       "Problematisch gebruik van alcohol, drugs of andere middelen en de onderliggende oorzaken ervan.",
+    href: "/aanbod/middelengebruik",
   },
 ];
 
