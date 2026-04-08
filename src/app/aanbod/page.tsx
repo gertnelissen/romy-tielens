@@ -12,6 +12,7 @@ const topics = [
     title: "Angst & paniek",
     description:
       "Overmatige zorgen, paniekaanvallen, fobieën of een algemeen gevoel van angst dat je dagelijks leven beïnvloedt.",
+    href: "/aanbod/angst",
   },
   {
     title: "Depressie & somberheid",
@@ -22,6 +23,7 @@ const topics = [
     title: "Burn-out & stress",
     description:
       "Uitputting door werk of privé, het gevoel niet meer te kunnen, piekeren en lichamelijke stressklachten.",
+    href: "/aanbod/burn-out",
   },
   {
     title: "Perfectionisme",
@@ -32,6 +34,7 @@ const topics = [
     title: "Trauma",
     description:
       "Verwerking van ingrijpende ervaringen, nachtmerries, herbelevingen of vermijdingsgedrag.",
+    href: "/aanbod/trauma",
   },
   {
     title: "Rouw & verlies",
@@ -89,17 +92,37 @@ export default function Aanbod() {
       <section className="py-12">
         <div className="max-w-5xl mx-auto px-6">
           <div className="grid sm:grid-cols-2 gap-6">
-            {topics.map(({ title, description }) => (
-              <div
-                key={title}
-                className="bg-white border border-stone-200 rounded-xl p-6 shadow-sm"
-              >
-                <h3 className="font-semibold text-sage-800 mb-2">{title}</h3>
-                <p className="text-sm text-stone-600 leading-relaxed">
-                  {description}
-                </p>
-              </div>
-            ))}
+            {topics.map(({ title, description, href }) => {
+              const content = (
+                <>
+                  <h3 className="font-semibold text-sage-800 mb-2">
+                    {title}
+                    {href && (
+                      <span className="text-sage-400 ml-1">&rarr;</span>
+                    )}
+                  </h3>
+                  <p className="text-sm text-stone-600 leading-relaxed">
+                    {description}
+                  </p>
+                </>
+              );
+              return href ? (
+                <Link
+                  key={title}
+                  href={href}
+                  className="bg-white border border-stone-200 rounded-xl p-6 shadow-sm hover:border-sage-300 hover:shadow-md transition-all"
+                >
+                  {content}
+                </Link>
+              ) : (
+                <div
+                  key={title}
+                  className="bg-white border border-stone-200 rounded-xl p-6 shadow-sm"
+                >
+                  {content}
+                </div>
+              );
+            })}
           </div>
 
           <div className="mt-12 bg-sage-50 border border-sage-200 rounded-xl p-8 text-center">

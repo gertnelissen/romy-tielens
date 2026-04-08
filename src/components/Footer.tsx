@@ -54,12 +54,20 @@ export function Footer() {
       <div className="border-t border-sage-700 py-4 px-6">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-sage-400">
           <p>&copy; {new Date().getFullYear()} Romy Tielens</p>
-          <Link
-            href="/privacy"
-            className="hover:text-sage-300 transition-colors"
-          >
-            Privacybeleid
-          </Link>
+          <div className="flex gap-4">
+            <Link
+              href="/doorverwijzers"
+              className="hover:text-sage-300 transition-colors"
+            >
+              Voor doorverwijzers
+            </Link>
+            <Link
+              href="/privacy"
+              className="hover:text-sage-300 transition-colors"
+            >
+              Privacybeleid
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
