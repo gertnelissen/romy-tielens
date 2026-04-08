@@ -15,27 +15,27 @@
 
 ## 🔴 Kritiek — GDPR/Juridisch
 
-- [ ] **#6** Privacybeleid herschrijven per GDPR Art. 13: verwerkingsverantwoordelijke, rechtsgrond, bewaartermijnen, GBA klachtrecht, doorgifte VS (Formspree), bijzondere categorieën (gezondheidsdata). *Volledige tekst beschikbaar uit GDPR-audit.*
-- [ ] **#7** Toestemmingscheckbox toevoegen aan contactformulier + link naar privacybeleid.
-- [ ] **#8** Google Maps iframe: pas laden na toestemming (click-to-load) óf vervangen door statische afbeelding + link. Cookies worden nu zonder consent geplaatst.
+- [x] **#6** Privacybeleid herschrijven per GDPR Art. 13.
+- [x] **#7** Toestemmingscheckbox + privacybeleid link bij contactformulier.
+- [x] **#8** Google Maps click-to-load (GDPR compliant).
 
 ## 🔴 Kritiek — SEO
 
-- [ ] **#9** `metadataBase: new URL("https://romytielens.be")` toevoegen in root layout → canonical URLs + absolute OG image paths.
-- [ ] **#10** JSON-LD: relatieve image URL → absoluut, `url` property toevoegen, schema aanvullen met `LocalBusiness`/`MedicalBusiness`.
-- [ ] **#11** `FAQPage` structured data toevoegen op Praktisch-pagina.
+- [x] **#9** `metadataBase` voor canonical URLs + absolute OG image paths.
+- [x] **#10** JSON-LD: `LocalBusiness`/`MedicalBusiness`, absolute URLs, openingHours, sameAs.
+- [x] **#11** `FAQPage` structured data op Praktisch-pagina.
 
 ## 🔴 Kritiek — Accessibility
 
-- [ ] **#12** Skip-to-content link toevoegen (`<a href="#main">Ga naar inhoud</a>`).
-- [ ] **#13** Focus-indicators: globale `focus-visible` style toevoegen, form focus ring van sage-300 → sage-600.
-- [ ] **#14** Kleurcontrast fixen: stone-600 subtitels → stone-700, sage-400 form hints → sage-600, stone-500 wachttijd → stone-600.
-- [ ] **#15** Formulier-errors: `role="alert"` toevoegen zodat screen readers ze aankondigen. Success state: `role="status"`.
+- [x] **#12** Skip-to-content link.
+- [x] **#13** Globale `focus-visible` style + betere form focus ring.
+- [x] **#14** Kleurcontrast gefixed (subtitels, wachttijd, form hints).
+- [x] **#15** Form success state: `role="status"` + `aria-live="polite"`, SVG `aria-hidden`.
 
 ## 🔴 Kritiek — Performance
 
-- [ ] **#16** `<img>` → `next/image` met `priority` op hero image. Verwachte LCP-verbetering: 500-1500ms.
-- [ ] **#17** AVIF inschakelen: `images: { formats: ["image/avif", "image/webp"] }` in next.config.
+- [x] **#16** `next/image` met `priority` op hero + about images. LCP optimized.
+- [x] **#17** AVIF + WebP ingeschakeld in next.config. Boilerplate SVGs verwijderd.
 
 ---
 

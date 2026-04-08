@@ -15,7 +15,7 @@ export default function Doorverwijzers() {
           <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             Voor doorverwijzers
           </h1>
-          <p className="text-stone-600 text-lg">
+          <p className="text-stone-700 text-lg">
             Informatie voor huisartsen, specialisten en andere zorgverleners.
           </p>
         </div>

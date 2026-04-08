@@ -6,15 +6,51 @@ export const metadata: Metadata = {
     "Tarieven, locaties, terugbetaling en veelgestelde vragen. Psycholoog in Hasselt.",
 };
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Hoe lang duurt een therapietraject?",
+      acceptedAnswer: { "@type": "Answer", text: "Dat verschilt per persoon en klacht. Sommige trajecten duren enkele sessies, andere lopen langer. We evalueren regelmatig samen." },
+    },
+    {
+      "@type": "Question",
+      name: "Heb ik een doorverwijzing nodig?",
+      acceptedAnswer: { "@type": "Answer", text: "Voor een gewoon consult niet. Voor eerstelijnspsychologie (ELP) heb je een doorverwijzing van je huisarts nodig." },
+    },
+    {
+      "@type": "Question",
+      name: "Worden sessies terugbetaald?",
+      acceptedAnswer: { "@type": "Answer", text: "Ja, als erkend klinisch psycholoog komen sessies in aanmerking voor gedeeltelijke terugbetaling via je mutualiteit. Het exacte bedrag verschilt per ziekenfonds." },
+    },
+    {
+      "@type": "Question",
+      name: "Kan ik ook online een sessie doen?",
+      acceptedAnswer: { "@type": "Answer", text: "Ja, online sessies via videogesprek zijn mogelijk." },
+    },
+    {
+      "@type": "Question",
+      name: "Wat als ik een afspraak moet annuleren?",
+      acceptedAnswer: { "@type": "Answer", text: "Annuleren kan tot 24 uur op voorhand. Bij laattijdige annulering of het niet opdagen wordt de sessie aangerekend." },
+    },
+  ],
+};
+
 export default function Praktisch() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <section className="bg-sage-50 py-12">
         <div className="max-w-3xl mx-auto px-6">
           <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             Praktische info
           </h1>
-          <p className="text-stone-600 text-lg">
+          <p className="text-stone-700 text-lg">
             Alles wat je moet weten voor een eerste afspraak.
           </p>
         </div>

@@ -43,7 +43,7 @@ export default async function AanbodDetail({
           <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             {page.title}
           </h1>
-          <p className="text-stone-600 text-lg">{page.subtitle}</p>
+          <p className="text-stone-700 text-lg">{page.subtitle}</p>
         </div>
       </section>
 
@@ -146,7 +146,7 @@ export default async function AanbodDetail({
             >
               Neem contact op
             </Link>
-            <p className="text-sm text-stone-500 mt-3">
+            <p className="text-sm text-stone-600 mt-3">
               Huidige wachttijd: ~1 maand
             </p>
           </div>

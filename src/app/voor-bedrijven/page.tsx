@@ -69,7 +69,7 @@ export default function VoorBedrijven() {
           <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             Voor bedrijven
           </h1>
-          <p className="text-stone-600 text-lg">
+          <p className="text-stone-700 text-lg">
             Investeer in het welzijn van je medewerkers. Een gezonde werkomgeving
             begint bij mentale en fysieke veerkracht.
           </p>

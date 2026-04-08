@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -14,7 +15,7 @@ export default function OverMij() {
           <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             Over mij
           </h1>
-          <p className="text-stone-600 text-lg">
+          <p className="text-stone-700 text-lg">
             Klinisch psycholoog &amp; integratief psychotherapeut
           </p>
         </div>
@@ -24,12 +25,13 @@ export default function OverMij() {
         <div className="max-w-3xl mx-auto px-6 space-y-10">
           {/* Intro met foto */}
           <div className="grid md:grid-cols-[280px_1fr] gap-10 items-start">
-            <div className="rounded-2xl aspect-square overflow-hidden">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+            <div className="rounded-2xl aspect-square overflow-hidden relative">
+              <Image
                 src="/romy-bw.jpeg"
-                alt="Romy Tielens"
-                className="w-full h-full object-cover"
+                alt="Portret van Romy Tielens, psycholoog in Hasselt"
+                fill
+                className="object-cover"
+                sizes="280px"
               />
             </div>
             <div className="space-y-4 text-stone-700 leading-relaxed">

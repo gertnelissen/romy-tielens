@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -30,12 +31,14 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="rounded-2xl aspect-[3/4] max-h-[420px] overflow-hidden shadow-lg">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+          <div className="rounded-2xl aspect-[3/4] max-h-[420px] overflow-hidden shadow-lg relative">
+            <Image
               src="/romy.jpg"
-              alt="Romy Tielens — klinisch psycholoog"
-              className="w-full h-full object-cover object-top"
+              alt="Romy Tielens — klinisch psycholoog in Hasselt"
+              fill
+              priority
+              className="object-cover object-top"
+              sizes="340px"
             />
           </div>
         </div>

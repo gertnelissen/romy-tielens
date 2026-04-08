@@ -7,9 +7,10 @@ export function ContactForm() {
 
   if (state.succeeded) {
     return (
-      <div className="bg-sage-50 border border-sage-200 rounded-xl p-8 text-center">
+      <div role="status" aria-live="polite" className="bg-sage-50 border border-sage-200 rounded-xl p-8 text-center">
         <svg
           className="w-12 h-12 text-sage-500 mx-auto mb-4"
+          aria-hidden="true"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -46,7 +47,7 @@ export function ContactForm() {
           id="name"
           name="name"
           required
-          className="w-full border border-sage-200 rounded-lg px-4 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-sage-300 focus:border-sage-400"
+          className="w-full border border-sage-200 rounded-lg px-4 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-sage-500 focus:border-sage-400"
         />
         <ValidationError prefix="Naam" field="name" errors={state.errors} />
       </div>
@@ -62,7 +63,7 @@ export function ContactForm() {
           id="email"
           name="email"
           required
-          className="w-full border border-sage-200 rounded-lg px-4 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-sage-300 focus:border-sage-400"
+          className="w-full border border-sage-200 rounded-lg px-4 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-sage-500 focus:border-sage-400"
         />
         <ValidationError prefix="E-mail" field="email" errors={state.errors} />
       </div>
@@ -78,7 +79,7 @@ export function ContactForm() {
           type="tel"
           id="phone"
           name="phone"
-          className="w-full border border-sage-200 rounded-lg px-4 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-sage-300 focus:border-sage-400"
+          className="w-full border border-sage-200 rounded-lg px-4 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-sage-500 focus:border-sage-400"
         />
       </div>
       <div>
@@ -93,7 +94,7 @@ export function ContactForm() {
           name="message"
           rows={5}
           required
-          className="w-full border border-sage-200 rounded-lg px-4 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-sage-300 focus:border-sage-400 resize-none"
+          className="w-full border border-sage-200 rounded-lg px-4 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-sage-500 focus:border-sage-400 resize-none"
         />
         <ValidationError
           prefix="Bericht"
@@ -101,15 +102,36 @@ export function ContactForm() {
           errors={state.errors}
         />
       </div>
+      <label className="flex items-start gap-2.5 text-sm text-stone-600 cursor-pointer">
+        <input
+          type="checkbox"
+          name="privacy"
+          required
+          className="mt-1 accent-sage-600"
+        />
+        <span>
+          Ik ga akkoord met de verwerking van mijn gegevens zoals beschreven
+          in het{" "}
+          <a
+            href="/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sage-600 underline hover:text-sage-700"
+          >
+            privacybeleid
+          </a>
+          .
+        </span>
+      </label>
       <button
         type="submit"
         disabled={state.submitting}
-        className="bg-sage-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-sage-700 transition-colors w-full disabled:opacity-50 disabled:cursor-not-allowed"
+        className="bg-sage-600 text-white px-8 py-3 rounded-lg text-base font-semibold hover:bg-sage-700 transition-colors w-full disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {state.submitting ? "Versturen..." : "Verstuur bericht"}
       </button>
-      <p className="text-xs text-sage-400">
-        Ik antwoord meestal binnen 2 werkdagen.
+      <p className="text-sm text-stone-500">
+        Vrijblijvend en vertrouwelijk. Ik antwoord meestal binnen 2 werkdagen.
       </p>
     </form>
   );

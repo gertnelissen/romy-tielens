@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ContactForm } from "@/components/ContactForm";
+import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
   title: "Contact | Romy Tielens",
@@ -16,7 +17,7 @@ export default function Contact() {
           <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             Contact
           </h1>
-          <p className="text-stone-600 text-lg">
+          <p className="text-stone-700 text-lg">
             Wil je een afspraak maken of heb je een vraag? Neem gerust contact
             op.
           </p>
@@ -62,7 +63,7 @@ export default function Contact() {
               </p>
               <Link
                 href="/praktisch"
-                className="text-sage-600 hover:text-sage-700 text-sm font-medium transition-colors"
+                className="text-sage-600 hover:text-sage-700 text-base font-medium transition-colors"
               >
                 Alle locaties &amp; openingsuren &rarr;
               </Link>
@@ -74,26 +75,16 @@ export default function Contact() {
                   Eerste keer contact opnemen?
                 </strong>{" "}
                 Vermeld kort waarvoor je hulp zoekt, zodat ik al een eerste
-                idee heb bij ons kennismakingsgesprek. Alle informatie wordt
-                uiteraard vertrouwelijk behandeld.
+                idee heb bij ons kennismakingsgesprek.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Map */}
+      {/* Map — click-to-load for GDPR compliance */}
       <section className="pb-0">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2516.5!2d5.3607769!3d50.9703005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c121198b12ad1b%3A0xe86ffcbbf376dbc7!2sKadans!5e0!3m2!1snl!2sbe!4v1700000000000"
-          width="100%"
-          height="300"
-          style={{ border: 0 }}
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          title="Zorgpraktijk Kadans — Kempische Steenweg 565, Hasselt"
-        />
+        <GoogleMap />
       </section>
     </>
   );

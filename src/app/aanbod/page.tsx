@@ -90,7 +90,7 @@ export default function Aanbod() {
           <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             Aanbod
           </h1>
-          <p className="text-stone-600 text-lg">
+          <p className="text-stone-700 text-lg">
             Ik begeleid volwassenen bij uiteenlopende psychische klachten.
             Hieronder vind je een overzicht van de thema&apos;s waarvoor je bij
             mij terecht kunt.

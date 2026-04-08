@@ -32,3 +32,19 @@ body {
   color: #2d3a2d;
   font-family: var(--font-sans), system-ui, sans-serif;
 }
+
+/* #13: Global focus indicators */
+*:focus-visible {
+  outline: 2px solid #4a6741;
+  outline-offset: 2px;
+}
+
+/* #58: Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
