@@ -2,7 +2,7 @@
 title: "Trauma"
 seoTitle: "Traumatherapie Hasselt | Romy Tielens"
 seoDescription: "Traumaverwerking met integratieve psychotherapie in Hasselt. Klinisch psycholoog Romy Tielens begeleidt je bij het verwerken van ingrijpende ervaringen."
-subtitle: "Ruimte om te verwerken, in een veilige omgeving."
+subtitle: "Verder leven met wat er is gebeurd."
 ---
 
 ## Herken je dit?
@@ -18,7 +18,7 @@ subtitle: "Ruimte om te verwerken, in een veilige omgeving."
 
 Traumatische ervaringen kunnen lang doorwerken — soms jaren na de gebeurtenis. Ze beïnvloeden hoe je naar jezelf kijkt, hoe je relaties aangaat, en hoe je je voelt in je dagelijks leven.
 
-Je leert begrijpen hoe het trauma je zelfbeeld en patronen heeft gevormd, en hoe je vastgelopen emoties weer ruimte kunt geven. In therapie creëer ik eerst een veilige basis. Pas wanneer je je veilig genoeg voelt, gaan we aan de slag met het trauma zelf. Dit gebeurt altijd in jouw ritme. Ik combineer daarvoor schematherapie, Emotion-Focused Therapy en cognitieve technieken.
+Je leert begrijpen hoe het trauma je zelfbeeld en patronen heeft gevormd, en hoe je vastgelopen emoties kunt loslaten. We werken stap voor stap: eerst bouwen we een stevige basis op. Pas wanneer je je stabiel genoeg voelt, gaan we aan de slag met het trauma zelf. Dit gebeurt altijd in jouw maat. Ik combineer daarvoor schematherapie, Emotion-Focused Therapy en cognitieve technieken.
 
 ## Wat kun je verwachten?
 

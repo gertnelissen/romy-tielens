@@ -16,7 +16,7 @@ subtitle: "Andere manieren vinden om met pijn om te gaan."
 
 ## Hoe ik je kan helpen
 
-Zelfverwonding is vaak een manier om om te gaan met emotionele pijn die ondraaglijk aanvoelt. Het is geen teken van zwakte, maar een signaal dat je betere manieren nodig hebt om met die pijn om te gaan. In therapie zoeken we naar die andere manieren — in een veilige omgeving en in jouw ritme.
+Zelfverwonding is vaak een manier om om te gaan met emotionele pijn die ondraaglijk aanvoelt. Het is geen teken van zwakte, maar een signaal dat je betere manieren nodig hebt om met die pijn om te gaan. In therapie zoeken we naar die andere manieren — zonder haast en zonder oordeel.
 
 Via cognitieve gedragstherapie (CGT) leer je alternatieve copingstrategieën ontwikkelen voor momenten van crisis. Schematherapie helpt om de diepere patronen en overtuigingen te begrijpen die aan de basis liggen. Met Emotion-Focused Therapy (EFT) oefen je om je emoties te herkennen, te benoemen en op een gezonde manier te reguleren.
 
@@ -24,6 +24,6 @@ Veiligheid staat voorop. Samen stellen we een veiligheidsplan op, zodat je weet 
 
 ## Wat kun je verwachten?
 
-Het eerste gesprek is een intake. Je vertelt wat je wilt delen, in je eigen tempo. Er is geen druk om alles meteen te bespreken.
+Het eerste gesprek is een intake. Je vertelt wat je wilt delen, er is geen druk om alles meteen te bespreken.
 
 Verandering vraagt tijd en moed. Het gaat er niet om van vandaag op morgen te stoppen, maar om geleidelijk andere manieren te leren om met moeilijke momenten om te gaan. We bouwen samen aan een stevig fundament waar je op kunt terugvallen.

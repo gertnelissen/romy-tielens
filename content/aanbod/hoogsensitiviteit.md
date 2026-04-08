@@ -14,11 +14,9 @@ subtitle: "Je gevoeligheid als kracht leren zien."
 
 ## Hoe ik je kan helpen
 
-Hoogsensitiviteit is geen stoornis, maar een persoonlijkheidstrek die voorkomt bij zo'n 15-20% van de bevolking. Toch kan het in een drukke, prikkelrijke wereld voor heel wat uitdagingen zorgen. In therapie leer je om je gevoeligheid beter te begrijpen en er op een gezonde manier mee om te gaan.
+Hoogsensitiviteit is geen stoornis, maar een persoonlijkheidstrek die voorkomt bij zo'n 15-20% van de bevolking. Toch kan het in een drukke, prikkelrijke wereld voor heel wat uitdagingen zorgen.
 
-Via psycho-educatie over hoogsensitiviteit krijg je inzicht in hoe jouw zenuwstelsel werkt en waarom bepaalde situaties je meer raken. Met cognitieve gedragstherapie (CGT) ontwikkel je concrete copingstrategieën voor overprikkeling. Schematherapie helpt als je gevoeligheid heeft geleid tot een negatief zelfbeeld of het gevoel "niet oké" te zijn.
-
-Daarnaast werk ik met praktische tools voor het dagelijkse leven: grenzen stellen, prikkels doseren en je energie bewuster beheren.
+Je leert je gevoeligheid beter begrijpen, grenzen stellen en je energie bewuster beheren. Je ontwikkelt concrete copingstrategieën voor overprikkeling en praktische tools voor het dagelijkse leven. Als je gevoeligheid heeft geleid tot een negatief zelfbeeld of het gevoel "niet oké" te zijn, werken we via schematherapie aan die diepere overtuigingen. Psycho-educatie over hoe jouw zenuwstelsel werkt geeft je inzicht én verlichting.
 
 ## Wat kun je verwachten?
 

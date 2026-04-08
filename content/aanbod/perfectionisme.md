@@ -1,7 +1,7 @@
 ---
 title: "Perfectionisme"
 seoTitle: "Psycholoog perfectionisme Hasselt | Romy Tielens"
-seoDescription: "Worstel je met perfectionisme? Klinisch psycholoog Romy Tielens in Hasselt helpt je om los te laten en jezelf meer ruimte te geven."
+seoDescription: "Worstel je met perfectionisme? Klinisch psycholoog Romy Tielens in Hasselt helpt je om los te laten en milder naar jezelf te kijken."
 subtitle: "Leren dat goed genoeg ook goed is."
 ---
 
@@ -24,4 +24,4 @@ Je leert je innerlijke criticus herkennen en bijsturen, en ontdekt waar die hoge
 
 We starten met een intakegesprek waarin je vertelt wat perfectionisme voor jou betekent en hoe het je dagelijks leven beïnvloedt. Samen stellen we doelen op die haalbaar en realistisch zijn.
 
-Perfectionisme loslaten is een proces. Het gaat niet om slordig worden, maar om ruimte maken voor flexibiliteit. Gaandeweg merk je dat je minder angst voelt en meer vrijheid ervaart.
+Perfectionisme loslaten is een proces. Het gaat niet om slordig worden, maar om meer flexibiliteit en zelfcompassie. Gaandeweg merk je dat je minder angst voelt en meer vrijheid ervaart.

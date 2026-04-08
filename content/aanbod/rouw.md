@@ -1,8 +1,8 @@
 ---
 title: "Rouw & verlies"
 seoTitle: "Psycholoog rouw en verlies Hasselt | Romy Tielens"
-seoDescription: "Moeilijk om te gaan met rouw of verlies? Klinisch psycholoog Romy Tielens in Hasselt biedt een veilige ruimte om je verdriet te verwerken."
-subtitle: "Ruimte voor wat je verloren hebt."
+seoDescription: "Moeilijk om te gaan met rouw of verlies? Klinisch psycholoog Romy Tielens in Hasselt helpt je om je verdriet te verwerken en verder te gaan."
+subtitle: "Een plek voor je verdriet, zonder druk om 'erover te komen'."
 ---
 
 ## Herken je dit?
@@ -16,9 +16,9 @@ subtitle: "Ruimte voor wat je verloren hebt."
 
 ## Hoe ik je kan helpen
 
-Rouw heeft geen vast tijdschema en geen "juiste" manier. Iedereen rouwt anders, en dat is oké. In therapie bied ik je een veilige plek waar je verdriet er mag zijn — zonder druk om "erover te komen".
+Rouw heeft geen vast tijdschema en geen "juiste" manier. Iedereen rouwt anders, en dat is oké. In therapie mag je verdriet er gewoon zijn — zonder druk om te presteren of "erover te komen".
 
-Via Emotion-Focused Therapy (EFT) help ik je om de intense emoties die bij rouw horen — verdriet, woede, schuld, gemis — toe te laten en te verwerken. Cliëntgerichte therapie vormt de basis: ik luister naar jouw verhaal en volg jouw tempo.
+Je leert de intense emoties die bij rouw horen — verdriet, woede, schuld, gemis — toelaten en verwerken. Via Emotion-Focused Therapy (EFT) geef ik die emoties de aandacht die ze verdienen. Cliëntgerichte therapie vormt de basis: ik luister naar jouw verhaal en stem de aanpak af op wat jij nodig hebt.
 
 Samen zoeken we naar een manier om het verlies een plek te geven in je leven, zonder dat het je volledig overneemt. Het doel is niet om te vergeten, maar om verder te kunnen met wat je meedraagt.
 

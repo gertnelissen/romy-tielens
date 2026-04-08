@@ -52,38 +52,35 @@
 - [x] **#62** Footer links touch targets vergroot.
 - [x] **#63** Sitemap: vaste lastModified dates.
 - [x] **#70** Privacybeleid: passage over minderjarigen (in privacy rewrite).
+- [x] **#18** CTA's unificeren: "Plan een intakegesprek" + "Vrijblijvend en vertrouwelijk" — consistent over alle pagina's en ContactForm.
+- [x] **#19** Trust-balk op homepage: "7+ jaar klinische ervaring" · "Erkend klinisch psycholoog" · "Jessa Ziekenhuis & Kadans" · "Terugbetaling mutualiteit".
+- [x] **#20** "Twijfel je nog?"-sectie op homepage.
+- [x] **#21** Value proposition in hero: psychiatrie-achtergrond en ervaring vermeld in subtitle.
+- [x] **#22** Tarief-blok op aanbod-detailpagina's staat ná de CTA.
+- [x] **#23** Wachtlijst-info prominent onder CTA op aanbod-detailpagina's.
+- [x] **#24** ELP-tarief verduidelijkt in aanbod-detail en op Praktisch-pagina.
+- [x] **#28** Aanbod-beschrijvingen gevarieerd: diverse H2-starters, structuurverschillen per pagina.
+- [x] **#29** Verboden woorden geëlimineerd: subtitles trauma/rouw/perfectionisme herschreven, "veilige omgeving" en "in je eigen tempo" verwijderd uit content.
+- [x] **#30** Aanbod-templates doorbroken: hoogsensitiviteit, middelengebruik en postpartum hebben afwijkende structuur.
+- [x] **#31** Hoe-ik-help secties leiden met resultaat: hoogsensitiviteit herschreven, methoden komen na de resultaten.
+- [x] **#42** "Praktisch" hernoemd naar "Tarieven & info" in navigatie.
+- [x] **#64** Dropdown "Waarvoor zoek je hulp?" toegevoegd aan contactformulier.
 
 ---
-
-## 🟠 Hoog — Conversie & Copy (nog open)
-
-- [ ] **#18** CTA's unificeren: overal "Plan een kennismakingsgesprek" + "vrijblijvend en vertrouwelijk".
-- [ ] **#19** Trust-balk op homepage: "7+ jaar klinische ervaring" · "Erkend psycholoog" · "Jessa Ziekenhuis" · "Terugbetaling mutualiteit".
-- [ ] **#20** "Twijfel je?"-sectie op homepage of contactpagina.
-- [ ] **#21** Value proposition in hero versterken: psychiatrie-achtergrond en ervaring.
-- [ ] **#22** Tarief-blok op aanbod-detailpagina's verplaatsen naar ná de CTA.
-- [ ] **#23** Wachtlijst-info prominenter.
-- [ ] **#24** ELP-tarief verduidelijken.
 
 ## 🟠 Hoog — AI-content herschrijven (nog open)
 
 - [ ] **#25** 🟡 Homepage hero + welkomsttekst herschrijven.
 - [ ] **#26** 🟡 "Over mij" verrijken met persoonlijk verhaal.
 - [ ] **#27** 🟡 "Voor bedrijven" volledig herschrijven.
-- [ ] **#28** Aanbod-beschrijvingen variëren.
-- [ ] **#29** "Verboden woorden" elimineren.
-- [ ] **#30** Aanbod-templates doorbreken (variatie in structuur).
-- [ ] **#31** Hoe-ik-help secties: leid met resultaat, niet met methode.
 
 ## 🟡 Medium — UX & Design (nog open)
 
 - [ ] **#40** Sfeer-foto's toevoegen op contentpagina's. 🟡
 - [ ] **#41** 🟡 Foto's van praktijkruimte toevoegen.
-- [ ] **#42** "Praktisch" hernoemen naar "Tarieven & info" in navigatie.
 
 ## ⚪ Laag (nog open)
 
-- [ ] **#64** Optioneel dropdown "Waarvoor zoek je hulp?" in contactformulier.
 - [ ] **#65** 🟡 Social proof / testimonials (geanonimiseerd).
 - [ ] **#66** Domein koppelen (romytielens.be) via Vercel.
 - [ ] **#67** Google Business Profile aanmaken.
@@ -94,4 +91,4 @@
 
 *Laatst bijgewerkt: 2026-04-08*
 *🟡 = Romy's input nodig*
-*70 items totaal — 50 afgerond, 7 hoog (conversie), 7 hoog (content), 3 medium, 6 laag*
+*70 items totaal — 64 afgerond, 3 hoog (content/Romy), 2 medium, 5 laag*

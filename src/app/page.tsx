@@ -21,7 +21,7 @@ export default function Home() {
                 href="/contact"
                 className="inline-block bg-accent-600 text-white px-7 py-3 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors text-center"
               >
-                Maak een afspraak
+                Plan een intakegesprek
               </Link>
               <Link
                 href="/aanbod"
