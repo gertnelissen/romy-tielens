@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { ContactForm } from "@/components/ContactForm";
 
 export const metadata: Metadata = {
@@ -52,25 +53,19 @@ export default function Contact() {
             </div>
 
             <div>
-              <h2 className="font-semibold text-sage-800 mb-2">Locatie</h2>
-              <p className="text-stone-700 text-sm leading-relaxed">
-                Zorgpraktijk Kadans
-                <br />
-                Kempische Steenweg 565
-                <br />
-                3500 Hasselt
-              </p>
-            </div>
-
-            <div>
               <h2 className="font-semibold text-sage-800 mb-2">
-                Beschikbaarheid
+                Locaties &amp; beschikbaarheid
               </h2>
-              <ul className="text-sm text-stone-700 space-y-1">
-                <li>Maandag: 13:00 - 17:00</li>
-                <li>Woensdag: 09:00 - 20:00</li>
-                <li>Donderdag: 08:00 - 17:00</li>
-              </ul>
+              <p className="text-sm text-stone-700 mb-2">
+                Sessies vinden plaats in Zorgpraktijk Kadans, Jessa Ziekenhuis,
+                thuispraktijk of online.
+              </p>
+              <Link
+                href="/praktisch"
+                className="text-sage-600 hover:text-sage-700 text-sm font-medium transition-colors"
+              >
+                Alle locaties &amp; openingsuren &rarr;
+              </Link>
             </div>
 
             <div className="bg-sage-50 border border-sage-200 rounded-xl p-5">
