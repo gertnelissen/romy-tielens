@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Footer() {
   return (
     <footer className="bg-sage-800 text-sage-200 mt-auto">
@@ -50,8 +52,16 @@ export function Footer() {
           </p>
         </div>
       </div>
-      <div className="border-t border-sage-700 py-4 text-center text-xs text-sage-400">
-        &copy; {new Date().getFullYear()} Romy Tielens
+      <div className="border-t border-sage-700 py-4 px-6">
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-sage-400">
+          <p>&copy; {new Date().getFullYear()} Romy Tielens</p>
+          <Link
+            href="/privacy"
+            className="hover:text-sage-300 transition-colors"
+          >
+            Privacybeleid
+          </Link>
+        </div>
       </div>
     </footer>
   );

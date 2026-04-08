@@ -78,7 +78,7 @@ export default function Aanbod() {
           <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             Aanbod
           </h1>
-          <p className="text-sage-600 text-lg">
+          <p className="text-stone-600 text-lg">
             Ik begeleid volwassenen bij uiteenlopende psychische klachten.
             Hieronder vind je een overzicht van de thema&apos;s waarvoor je bij
             mij terecht kunt.
@@ -92,18 +92,18 @@ export default function Aanbod() {
             {topics.map(({ title, description }) => (
               <div
                 key={title}
-                className="bg-white border border-sage-100 rounded-xl p-6 shadow-sm"
+                className="bg-white border border-stone-200 rounded-xl p-6 shadow-sm"
               >
                 <h3 className="font-semibold text-sage-800 mb-2">{title}</h3>
-                <p className="text-sm text-sage-600 leading-relaxed">
+                <p className="text-sm text-stone-600 leading-relaxed">
                   {description}
                 </p>
               </div>
             ))}
           </div>
 
-          <div className="mt-12 bg-warm-50 border border-warm-200 rounded-xl p-8 text-center">
-            <p className="text-sage-700 mb-4">
+          <div className="mt-12 bg-sage-50 border border-sage-200 rounded-xl p-8 text-center">
+            <p className="text-stone-700 mb-4">
               Vind je je klacht niet in dit overzicht? Neem gerust contact op —
               samen bekijken we of ik je kan helpen.
             </p>

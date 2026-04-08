@@ -15,7 +15,7 @@ export default function Contact() {
           <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             Contact
           </h1>
-          <p className="text-sage-600 text-lg">
+          <p className="text-stone-600 text-lg">
             Wil je een afspraak maken of heb je een vraag? Neem gerust contact
             op.
           </p>
@@ -32,11 +32,11 @@ export default function Contact() {
               <h2 className="font-semibold text-sage-800 mb-2">
                 Rechtstreeks contacteren
               </h2>
-              <ul className="text-sm text-sage-700 space-y-2">
+              <ul className="text-sm text-stone-700 space-y-2">
                 <li>
                   <a
                     href="mailto:romy@praktijkkadans.be"
-                    className="text-sage-600 hover:text-sage-700 transition-colors"
+                    className="text-stone-600 hover:text-stone-700 transition-colors"
                   >
                     romy@praktijkkadans.be
                   </a>
@@ -44,7 +44,7 @@ export default function Contact() {
                 <li>
                   <a
                     href="tel:+32497605892"
-                    className="text-sage-600 hover:text-sage-700 transition-colors"
+                    className="text-stone-600 hover:text-stone-700 transition-colors"
                   >
                     0497 / 60 58 92
                   </a>
@@ -54,7 +54,7 @@ export default function Contact() {
 
             <div>
               <h2 className="font-semibold text-sage-800 mb-2">Locatie</h2>
-              <p className="text-sage-700 text-sm leading-relaxed">
+              <p className="text-stone-700 text-sm leading-relaxed">
                 Zorgpraktijk Kadans
                 <br />
                 Kempische Steenweg 565
@@ -67,15 +67,15 @@ export default function Contact() {
               <h2 className="font-semibold text-sage-800 mb-2">
                 Beschikbaarheid
               </h2>
-              <ul className="text-sm text-sage-700 space-y-1">
+              <ul className="text-sm text-stone-700 space-y-1">
                 <li>Maandag: 13:00 - 17:00</li>
                 <li>Woensdag: 09:00 - 20:00</li>
                 <li>Donderdag: 08:00 - 17:00</li>
               </ul>
             </div>
 
-            <div className="bg-warm-50 border border-warm-200 rounded-xl p-5">
-              <p className="text-sm text-sage-700 leading-relaxed">
+            <div className="bg-sage-50 border border-sage-200 rounded-xl p-5">
+              <p className="text-sm text-stone-700 leading-relaxed">
                 <strong className="text-sage-800">
                   Eerste keer contact opnemen?
                 </strong>{" "}

@@ -10,7 +10,7 @@ export default function Home() {
             <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl md:text-5xl text-sage-900 mb-5 leading-tight">
               Ruimte om te groeien, op jouw tempo
             </h1>
-            <p className="text-base text-sage-700 max-w-lg mb-8 leading-relaxed">
+            <p className="text-base text-stone-700 max-w-lg mb-8 leading-relaxed">
               Samen ontdekken wat jij nodig hebt om je beter te voelen en het
               leven weer ten volle te omarmen. Als klinisch psycholoog en
               integratief psychotherapeut begeleid ik volwassenen in Hasselt.
@@ -24,7 +24,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/aanbod"
-                className="inline-block border border-sage-300 text-sage-700 px-7 py-3 rounded-lg text-sm font-semibold hover:bg-sage-100 transition-colors text-center"
+                className="inline-block border border-sage-300 text-stone-700 px-7 py-3 rounded-lg text-sm font-semibold hover:bg-sage-100 transition-colors text-center"
               >
                 Bekijk het aanbod
               </Link>
@@ -47,12 +47,12 @@ export default function Home() {
           <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
             Welkom
           </h2>
-          <p className="text-sage-700 leading-relaxed mb-3">
+          <p className="text-stone-700 leading-relaxed mb-3">
             Iedereen loopt wel eens vast. Soms lukt het om op eigen kracht weer
             verder te gaan, maar soms kan professionele hulp het verschil maken.
             Het is een moedige stap om hulp te zoeken.
           </p>
-          <p className="text-sage-700 leading-relaxed mb-5">
+          <p className="text-stone-700 leading-relaxed mb-5">
             In een veilige, warme omgeving gaan we samen op zoek naar wat voor
             jou werkt. Ik werk vanuit een integratieve benadering, wat betekent
             dat ik verschillende therapeutische methoden combineer op maat van
@@ -60,7 +60,7 @@ export default function Home() {
           </p>
           <Link
             href="/over-mij"
-            className="text-sage-600 font-semibold text-sm hover:text-sage-700 transition-colors"
+            className="text-sage-600 font-semibold text-sm hover:text-stone-700 transition-colors"
           >
             Meer over mij &rarr;
           </Link>
@@ -99,7 +99,7 @@ export default function Home() {
           <div className="text-center mt-6">
             <Link
               href="/aanbod"
-              className="text-sage-600 font-semibold text-sm hover:text-sage-700 transition-colors"
+              className="text-sage-600 font-semibold text-sm hover:text-stone-700 transition-colors"
             >
               Volledig overzicht &rarr;
             </Link>
@@ -113,7 +113,7 @@ export default function Home() {
           <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-3">
             Klaar voor een eerste stap?
           </h2>
-          <p className="text-sage-700 mb-6">
+          <p className="text-stone-700 mb-6">
             Neem gerust contact op voor een kennismakingsgesprek. Samen bekijken
             we of ik de juiste persoon ben om jou te begeleiden.
           </p>

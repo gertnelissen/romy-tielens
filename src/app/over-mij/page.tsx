@@ -14,7 +14,7 @@ export default function OverMij() {
           <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             Over mij
           </h1>
-          <p className="text-sage-600 text-lg">
+          <p className="text-stone-600 text-lg">
             Klinisch psycholoog &amp; integratief psychotherapeut
           </p>
         </div>
@@ -22,6 +22,7 @@ export default function OverMij() {
 
       <section className="py-12">
         <div className="max-w-3xl mx-auto px-6 space-y-10">
+          {/* Intro met foto */}
           <div className="grid md:grid-cols-[280px_1fr] gap-10 items-start">
             <div className="rounded-2xl aspect-square overflow-hidden">
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -31,43 +32,51 @@ export default function OverMij() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="space-y-4 text-sage-700 leading-relaxed">
+            <div className="space-y-4 text-stone-700 leading-relaxed">
               <p>
-                Ik ben Romy Tielens, klinisch psycholoog en integratief
-                psychotherapeut. Ik werk met volwassenen die vastlopen in
+                Ik ben Romy, klinisch psycholoog en integratief
+                psychotherapeut. Met meer dan 7 jaar ervaring in de psychiatrie
+                en de eerstelijn help ik volwassenen die vastlopen in
                 emotionele of psychologische moeilijkheden.
               </p>
               <p>
-                Met jarenlange ervaring in zowel de psychiatrie als de
-                zelfstandige praktijk, help ik je om te ontdekken wat je nodig
-                hebt om je weer beter te voelen en het leven ten volle te
-                omarmen. In therapie creëer ik een veilige, warme ruimte waar
-                je op jouw tempo kunt werken aan wat voor jou belangrijk is.
+                Na mijn master Klinische Psychologie aan de KU Leuven werkte ik
+                op de spoedpsychiatrie en dagtherapie van het Jessa Ziekenhuis
+                in Hasselt, waar ik nog steeds actief ben. Daarnaast bouwde ik
+                jarenlang een zelfstandige praktijk uit. Sinds 2025 werk ik
+                vanuit Zorgpraktijk Kadans.
               </p>
             </div>
           </div>
 
+          {/* Werkwijze */}
           <div>
             <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Werkwijze
             </h2>
-            <p className="text-sage-700 leading-relaxed mb-4">
-              Ik werk vanuit een integratieve benadering. Dit betekent dat ik
-              verschillende therapeutische stromingen combineer, afgestemd op
-              wat bij jou past. De rode draad is steeds een warme, respectvolle
-              relatie als basis voor verandering.
+            <p className="text-stone-700 leading-relaxed mb-4">
+              Ik werk vanuit een integratieve benadering. Dat betekent dat ik
+              niet vastzit aan één stroming, maar verschillende methoden
+              combineer op maat van wat bij jou past. De rode draad? Een warme,
+              respectvolle relatie als basis voor verandering.
             </p>
-            <p className="text-sage-700 leading-relaxed">
-              In een eerste kennismakingsgesprek luister ik naar jouw verhaal en
-              bekijken we samen of er een goede match is. Daarna stippelen we
-              samen een traject uit.
+            <p className="text-stone-700 leading-relaxed">
+              In een eerste kennismakingsgesprek luister ik naar jouw verhaal.
+              Samen bekijken we of er een goede match is en stippelen we een
+              traject uit — op jouw tempo.
             </p>
           </div>
 
+          {/* Methoden */}
           <div>
             <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Therapeutische methoden
             </h2>
+            <p className="text-stone-700 leading-relaxed mb-4">
+              Tijdens mijn postgraduaat Integratieve Psychotherapie aan de
+              Universiteit Antwerpen verdiepte ik me in verschillende
+              stromingen die ik vandaag combineer:
+            </p>
             <ul className="grid sm:grid-cols-2 gap-3">
               {[
                 "Schematherapie",
@@ -87,127 +96,54 @@ export default function OverMij() {
             </ul>
           </div>
 
-          {/* KPNI */}
+          {/* kPNI */}
           <div>
             <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
-              Orthomoleculaire gezondheidszorg (kPNI)
+              Lichaam &amp; geest als geheel
             </h2>
-            <div className="bg-warm-50 border border-warm-200 rounded-xl p-6">
-              <p className="text-sage-700 leading-relaxed mb-3">
-                Naast psychotherapie volg ik momenteel de postgraduaat{" "}
+            <div className="bg-sage-50 border border-sage-200 rounded-xl p-6">
+              <p className="text-stone-700 leading-relaxed mb-3">
+                Momenteel volg ik de postgraduaat{" "}
                 <strong className="text-sage-800">
-                  Integrale Orthomoleculaire Gezondheidszorg volgens de kPNI
+                  Integrale Orthomoleculaire Gezondheidszorg (kPNI)
                 </strong>{" "}
-                aan Hogeschool PXL. Deze opleiding richt zich op de
-                wisselwerking tussen voeding, leefstijl en psychisch welzijn.
+                aan Hogeschool PXL. Deze opleiding verdiept de wisselwerking
+                tussen voeding, leefstijl en psychisch welzijn.
               </p>
-              <p className="text-sage-700 leading-relaxed">
-                Met deze extra expertise kan ik lichaam en geest nog meer als
-                een geheel benaderen en je begeleiden met evidence-based advies
-                rond voeding, suppletie en leefstijl als aanvulling op
+              <p className="text-stone-700 leading-relaxed">
+                Zo kan ik lichaam en geest nog meer als een geheel benaderen en
+                je waar nodig begeleiden met evidence-based advies rond
+                voeding, suppletie en leefstijl — als aanvulling op
                 psychotherapie.
               </p>
             </div>
           </div>
 
-          {/* Ervaring */}
-          <div>
-            <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
-              Ervaring
-            </h2>
-            <div className="space-y-4">
-              {[
-                {
-                  role: "Klinisch psycholoog / Psychotherapeut",
-                  place: "Zorgpraktijk Kadans, Hasselt",
-                  period: "2025 - heden",
-                },
-                {
-                  role: "Klinisch psycholoog — PAAZ & dagtherapie",
-                  place: "Jessa Ziekenhuis, Hasselt",
-                  period: "2019 - heden",
-                },
-                {
-                  role: "Oncopsycholoog",
-                  place: "Jessa Ziekenhuis, Hasselt",
-                  period: "2021",
-                },
-                {
-                  role: "Zelfstandig klinisch psycholoog",
-                  place: "Groepspraktijk Manshoven, Borgloon",
-                  period: "2019 - 2024",
-                },
-                {
-                  role: "Eerstelijns klinisch psycholoog",
-                  place: "Huisartsenpraktijk PArel, Borgloon",
-                  period: "2019 - 2021",
-                },
-              ].map(({ role, place, period }) => (
-                <div
-                  key={role + place}
-                  className="flex flex-col sm:flex-row sm:justify-between gap-1 border-b border-sage-100 pb-3"
-                >
-                  <div>
-                    <p className="font-medium text-sage-800">{role}</p>
-                    <p className="text-sm text-sage-600">{place}</p>
-                  </div>
-                  <p className="text-sm text-sage-500 sm:text-right shrink-0">
-                    {period}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Opleiding */}
-          <div>
-            <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
-              Opleiding
-            </h2>
-            <div className="space-y-4">
-              {[
-                {
-                  degree: "Integrale Orthomoleculaire Gezondheidszorg (kPNI)",
-                  school: "Hogeschool PXL",
-                  period: "Lopend",
-                },
-                {
-                  degree: "Postgraduaat Integratieve Psychotherapie",
-                  school: "Universiteit Antwerpen",
-                  period: "2020 - 2024",
-                },
-                {
-                  degree: "Master Klinische Psychologie",
-                  school: "KU Leuven",
-                  period: "2012 - 2018",
-                },
-              ].map(({ degree, school, period }) => (
-                <div
-                  key={degree}
-                  className="flex flex-col sm:flex-row sm:justify-between gap-1 border-b border-sage-100 pb-3"
-                >
-                  <div>
-                    <p className="font-medium text-sage-800">{degree}</p>
-                    <p className="text-sm text-sage-600">{school}</p>
-                  </div>
-                  <p className="text-sm text-sage-500 sm:text-right shrink-0">
-                    {period}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Erkenning */}
-          <div>
+          {/* Erkenning — compact */}
+          <div className="border-t border-stone-200 pt-8">
             <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Erkenningen
             </h2>
-            <ul className="space-y-2 text-sage-700 text-sm">
-              <li>Klinisch psycholoog — visumnummer 261431</li>
-              <li>Erkend door de Psychologencommissie — 942123340</li>
-              <li>Integratief psychotherapeut</li>
-            </ul>
+            <div className="grid sm:grid-cols-3 gap-4 text-sm text-stone-600">
+              <div>
+                <p className="font-medium text-sage-800">Visumnummer</p>
+                <p>261431</p>
+              </div>
+              <div>
+                <p className="font-medium text-sage-800">
+                  Psychologencommissie
+                </p>
+                <p>942123340</p>
+              </div>
+              <div>
+                <p className="font-medium text-sage-800">Opleiding</p>
+                <p>
+                  Master KU Leuven
+                  <br />
+                  Postgraduaat UAntwerpen
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

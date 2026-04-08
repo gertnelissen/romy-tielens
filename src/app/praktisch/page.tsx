@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Praktisch | Romy Tielens",
   description:
-    "Tarieven, terugbetaling, locatie en openingsuren van de praktijk in Hasselt.",
+    "Tarieven, locaties, terugbetaling en veelgestelde vragen. Psycholoog in Hasselt.",
 };
 
 export default function Praktisch() {
@@ -14,7 +14,7 @@ export default function Praktisch() {
           <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             Praktische info
           </h1>
-          <p className="text-sage-600 text-lg">
+          <p className="text-stone-600 text-lg">
             Alles wat je moet weten voor een eerste afspraak.
           </p>
         </div>
@@ -27,16 +27,29 @@ export default function Praktisch() {
             <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Tarieven
             </h2>
-            <div className="bg-white border border-sage-100 rounded-xl p-6 shadow-sm">
-              <div className="flex justify-between items-center">
+            <div className="space-y-3">
+              <div className="bg-white border border-stone-200 rounded-xl p-5 flex justify-between items-center">
                 <div>
                   <p className="font-semibold text-sage-800">
                     Individueel gesprek
                   </p>
-                  <p className="text-sm text-sage-600">50 - 60 minuten</p>
+                  <p className="text-sm text-stone-600">50 - 60 minuten</p>
                 </div>
                 <p className="text-2xl font-semibold text-sage-800">
                   &euro;75
+                </p>
+              </div>
+              <div className="bg-white border border-stone-200 rounded-xl p-5 flex justify-between items-center">
+                <div>
+                  <p className="font-semibold text-sage-800">
+                    Eerstelijnspsychologie (ELP)
+                  </p>
+                  <p className="text-sm text-stone-600">
+                    Via doorverwijzing huisarts
+                  </p>
+                </div>
+                <p className="text-2xl font-semibold text-sage-800">
+                  &euro;85
                 </p>
               </div>
             </div>
@@ -47,7 +60,7 @@ export default function Praktisch() {
             <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Terugbetaling
             </h2>
-            <div className="space-y-3 text-sage-700 leading-relaxed">
+            <div className="text-stone-700 leading-relaxed space-y-3">
               <p>
                 Als erkend klinisch psycholoog komen sessies in aanmerking voor
                 gedeeltelijke terugbetaling via je mutualiteit. Het bedrag
@@ -61,29 +74,51 @@ export default function Praktisch() {
             </div>
           </div>
 
-          {/* Locatie */}
+          {/* Locaties */}
           <div>
             <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
-              Locatie
+              Locaties
             </h2>
-            <div className="bg-white border border-sage-100 rounded-xl p-6 shadow-sm">
-              <p className="font-semibold text-sage-800 mb-1">
-                Zorgpraktijk Kadans
-              </p>
-              <p className="text-sage-700 text-sm">
-                Kempische Steenweg 565
-                <br />
-                3500 Hasselt
-              </p>
+            <div className="grid sm:grid-cols-3 gap-4">
+              <div className="bg-white border border-stone-200 rounded-xl p-5">
+                <p className="font-semibold text-sage-800 mb-1">
+                  Zorgpraktijk Kadans
+                </p>
+                <p className="text-stone-600 text-sm">
+                  Kempische Steenweg 565
+                  <br />
+                  3500 Hasselt
+                </p>
+              </div>
+              <div className="bg-white border border-stone-200 rounded-xl p-5">
+                <p className="font-semibold text-sage-800 mb-1">
+                  Jessa Ziekenhuis
+                </p>
+                <p className="text-stone-600 text-sm">
+                  Guffenslaan
+                  <br />
+                  3500 Hasselt
+                </p>
+              </div>
+              <div className="bg-white border border-stone-200 rounded-xl p-5">
+                <p className="font-semibold text-sage-800 mb-1">
+                  Online sessie
+                </p>
+                <p className="text-stone-600 text-sm">
+                  Via videogesprek
+                  <br />
+                  vanuit je eigen vertrouwde omgeving
+                </p>
+              </div>
             </div>
           </div>
 
-          {/* Openingsuren */}
+          {/* Beschikbaarheid */}
           <div>
             <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Beschikbaarheid
             </h2>
-            <div className="bg-white border border-sage-100 rounded-xl overflow-hidden shadow-sm">
+            <div className="bg-white border border-stone-200 rounded-xl overflow-hidden">
               {[
                 { day: "Maandag", hours: "13:00 - 17:00" },
                 { day: "Woensdag", hours: "09:00 - 20:00" },
@@ -91,14 +126,21 @@ export default function Praktisch() {
               ].map(({ day, hours }, i) => (
                 <div
                   key={day}
-                  className={`flex justify-between px-6 py-4 ${
-                    i > 0 ? "border-t border-sage-100" : ""
+                  className={`flex justify-between px-5 py-3 ${
+                    i > 0 ? "border-t border-stone-100" : ""
                   }`}
                 >
                   <span className="text-sage-800 font-medium">{day}</span>
-                  <span className="text-sage-600">{hours}</span>
+                  <span className="text-stone-600">{hours}</span>
                 </div>
               ))}
+            </div>
+            <div className="mt-3 bg-sage-50 border border-sage-200 rounded-xl p-4">
+              <p className="text-sm text-stone-700">
+                <strong className="text-sage-800">Wachtlijst:</strong>{" "}
+                Momenteel is er een wachttijd van ongeveer 1 maand. Neem gerust
+                al contact op zodat ik je op de wachtlijst kan plaatsen.
+              </p>
             </div>
           </div>
 
@@ -128,11 +170,50 @@ export default function Praktisch() {
                   </span>
                   <div>
                     <p className="font-semibold text-sage-800">{step}</p>
-                    <p className="text-sm text-sage-600">{text}</p>
+                    <p className="text-sm text-stone-600">{text}</p>
                   </div>
                 </li>
               ))}
             </ol>
+          </div>
+
+          {/* FAQ */}
+          <div>
+            <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
+              Veelgestelde vragen
+            </h2>
+            <div className="space-y-4">
+              {[
+                {
+                  q: "Hoe lang duurt een therapietraject?",
+                  a: "Dat verschilt per persoon en klacht. Sommige trajecten duren enkele sessies, andere lopen langer. We evalueren regelmatig samen of het traject nog aansluit bij jouw noden.",
+                },
+                {
+                  q: "Heb ik een doorverwijzing nodig?",
+                  a: "Voor een gewoon consult niet. Voor eerstelijnspsychologie (ELP) heb je een doorverwijzing van je huisarts nodig.",
+                },
+                {
+                  q: "Worden sessies terugbetaald?",
+                  a: "Ja, als erkend klinisch psycholoog komen sessies in aanmerking voor gedeeltelijke terugbetaling via je mutualiteit. Het exacte bedrag verschilt per ziekenfonds.",
+                },
+                {
+                  q: "Kan ik ook online een sessie doen?",
+                  a: "Ja, online sessies via videogesprek zijn mogelijk. Dit kan handig zijn als je niet naar de praktijk kunt komen.",
+                },
+                {
+                  q: "Wat als ik een afspraak moet annuleren?",
+                  a: "Annuleren kan tot 24 uur op voorhand. Bij laattijdige annulering of het niet opdagen wordt de sessie aangerekend.",
+                },
+              ].map(({ q, a }) => (
+                <div
+                  key={q}
+                  className="border-b border-stone-200 pb-4"
+                >
+                  <p className="font-medium text-sage-800 mb-1">{q}</p>
+                  <p className="text-sm text-stone-600 leading-relaxed">{a}</p>
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* Talen */}
@@ -140,7 +221,7 @@ export default function Praktisch() {
             <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Talen
             </h2>
-            <p className="text-sage-700">
+            <p className="text-stone-700">
               Sessies zijn mogelijk in het <strong>Nederlands</strong> en{" "}
               <strong>Engels</strong>.
             </p>

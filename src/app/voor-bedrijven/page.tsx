@@ -69,7 +69,7 @@ export default function VoorBedrijven() {
           <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             Voor bedrijven
           </h1>
-          <p className="text-sage-600 text-lg">
+          <p className="text-stone-600 text-lg">
             Investeer in het welzijn van je medewerkers. Een gezonde werkomgeving
             begint bij mentale en fysieke veerkracht.
           </p>
@@ -83,13 +83,13 @@ export default function VoorBedrijven() {
             {services.map(({ title, description, icon }) => (
               <div
                 key={title}
-                className="bg-white border border-sage-100 rounded-xl p-8 shadow-sm"
+                className="bg-white border border-stone-200 rounded-xl p-8 shadow-sm"
               >
                 <div className="mb-4">{icon}</div>
                 <h3 className="font-semibold text-sage-800 text-lg mb-3">
                   {title}
                 </h3>
-                <p className="text-sm text-sage-600 leading-relaxed">
+                <p className="text-sm text-stone-600 leading-relaxed">
                   {description}
                 </p>
               </div>
@@ -108,7 +108,7 @@ export default function VoorBedrijven() {
             {topics.map((topic) => (
               <div
                 key={topic}
-                className="bg-white rounded-lg px-4 py-3 text-sm text-sage-700 text-center shadow-sm"
+                className="bg-white rounded-lg px-4 py-3 text-sm text-stone-700 text-center shadow-sm"
               >
                 {topic}
               </div>
@@ -140,7 +140,7 @@ export default function VoorBedrijven() {
             ].map(({ stat, text }) => (
               <div key={stat}>
                 <p className="font-semibold text-sage-800 mb-2">{stat}</p>
-                <p className="text-sm text-sage-600 leading-relaxed">
+                <p className="text-sm text-stone-600 leading-relaxed">
                   {text}
                 </p>
               </div>
@@ -152,11 +152,11 @@ export default function VoorBedrijven() {
       {/* CTA */}
       <section className="py-12">
         <div className="max-w-3xl mx-auto px-6">
-          <div className="bg-warm-50 border border-warm-200 rounded-xl p-10 text-center">
+          <div className="bg-sage-50 border border-sage-200 rounded-xl p-10 text-center">
             <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Op maat van jouw organisatie
             </h2>
-            <p className="text-sage-700 mb-6">
+            <p className="text-stone-700 mb-6">
               Elk bedrijf is uniek. Ik denk graag mee over een aanbod dat past
               bij de noden en cultuur van jouw organisatie. Neem vrijblijvend
               contact op voor een gesprek.

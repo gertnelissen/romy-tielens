@@ -1,34 +1,34 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-sage-50: #f5f6f3;
-  --color-sage-100: #e6e9e1;
-  --color-sage-200: #cdd4c4;
-  --color-sage-300: #adb8a0;
-  --color-sage-400: #8f9d7d;
-  --color-sage-500: #748563;
-  --color-sage-600: #5c6a4d;
-  --color-sage-700: #49543f;
-  --color-sage-800: #3c4535;
-  --color-sage-900: #333b2e;
+  --color-sage-50: #f0f2ec;
+  --color-sage-100: #e0e5d8;
+  --color-sage-200: #c5cebf;
+  --color-sage-300: #a3b199;
+  --color-sage-400: #8fa888;
+  --color-sage-500: #6b8560;
+  --color-sage-600: #4a6741;
+  --color-sage-700: #3d5536;
+  --color-sage-800: #2d3a2d;
+  --color-sage-900: #222b22;
 
-  --color-warm-50: #faf8f5;
-  --color-warm-100: #f0ece5;
-  --color-warm-200: #e2dace;
-  --color-warm-300: #cfc2b0;
-  --color-warm-400: #b5a28a;
-  --color-warm-500: #a08b70;
-  --color-warm-600: #8a7460;
-  --color-warm-700: #725f50;
-  --color-warm-800: #5e4f44;
-  --color-warm-900: #4e423a;
+  --color-stone-50: #fafbf8;
+  --color-stone-100: #f0f2ec;
+  --color-stone-200: #e2e6db;
+  --color-stone-300: #cdd4c4;
+  --color-stone-400: #b0b9a5;
+  --color-stone-500: #8a9580;
+  --color-stone-600: #6b7563;
+  --color-stone-700: #555e4e;
+  --color-stone-800: #3f4639;
+  --color-stone-900: #2d322a;
 
   --font-sans: var(--font-geist-sans);
   --font-serif: var(--font-dm-serif);
 }
 
 body {
-  background: #faf8f5;
-  color: #3c4535;
+  background: #fafbf8;
+  color: #2d3a2d;
   font-family: var(--font-sans), system-ui, sans-serif;
 }

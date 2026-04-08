@@ -18,7 +18,7 @@ export function Navigation() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="bg-warm-50/80 backdrop-blur-sm border-b border-sage-100 sticky top-0 z-50">
+    <header className="bg-stone-50/80 backdrop-blur-sm border-b border-stone-200 sticky top-0 z-50">
       <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link
           href="/"
