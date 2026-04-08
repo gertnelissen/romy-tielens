@@ -73,12 +73,12 @@ const topics = [
 export default function Aanbod() {
   return (
     <>
-      <section className="bg-sage-50 py-16">
+      <section className="bg-sage-50 py-12">
         <div className="max-w-3xl mx-auto px-6">
-          <h1 className="font-[var(--font-serif)] text-4xl text-sage-800 mb-4">
+          <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             Aanbod
           </h1>
-          <p className="text-sage-700/70 text-lg">
+          <p className="text-sage-600 text-lg">
             Ik begeleid volwassenen bij uiteenlopende psychische klachten.
             Hieronder vind je een overzicht van de thema&apos;s waarvoor je bij
             mij terecht kunt.
@@ -86,7 +86,7 @@ export default function Aanbod() {
         </div>
       </section>
 
-      <section className="py-16">
+      <section className="py-12">
         <div className="max-w-5xl mx-auto px-6">
           <div className="grid sm:grid-cols-2 gap-6">
             {topics.map(({ title, description }) => (
@@ -95,7 +95,7 @@ export default function Aanbod() {
                 className="bg-white border border-sage-100 rounded-xl p-6 shadow-sm"
               >
                 <h3 className="font-semibold text-sage-800 mb-2">{title}</h3>
-                <p className="text-sm text-sage-700/70 leading-relaxed">
+                <p className="text-sm text-sage-600 leading-relaxed">
                   {description}
                 </p>
               </div>
@@ -103,7 +103,7 @@ export default function Aanbod() {
           </div>
 
           <div className="mt-12 bg-warm-50 border border-warm-200 rounded-xl p-8 text-center">
-            <p className="text-sage-700/80 mb-4">
+            <p className="text-sage-700 mb-4">
               Vind je je klacht niet in dit overzicht? Neem gerust contact op —
               samen bekijken we of ik je kan helpen.
             </p>

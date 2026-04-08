@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -10,31 +9,29 @@ export const metadata: Metadata = {
 export default function OverMij() {
   return (
     <>
-      <section className="bg-sage-50 py-16">
+      <section className="bg-sage-50 py-12">
         <div className="max-w-3xl mx-auto px-6">
-          <h1 className="font-[var(--font-serif)] text-4xl text-sage-800 mb-4">
+          <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             Over mij
           </h1>
-          <p className="text-sage-700/70 text-lg">
+          <p className="text-sage-600 text-lg">
             Klinisch psycholoog &amp; integratief psychotherapeut
           </p>
         </div>
       </section>
 
-      <section className="py-16">
-        <div className="max-w-3xl mx-auto px-6 space-y-12">
+      <section className="py-12">
+        <div className="max-w-3xl mx-auto px-6 space-y-10">
           <div className="grid md:grid-cols-[280px_1fr] gap-10 items-start">
-            <div className="relative rounded-2xl aspect-square overflow-hidden">
-              <Image
+            <div className="rounded-2xl aspect-square overflow-hidden">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src="/romy-bw.jpeg"
                 alt="Romy Tielens"
-                fill
-                className="object-cover"
-                sizes="280px"
-                priority
+                className="w-full h-full object-cover"
               />
             </div>
-            <div className="space-y-4 text-sage-700/80 leading-relaxed">
+            <div className="space-y-4 text-sage-700 leading-relaxed">
               <p>
                 Ik ben Romy Tielens, klinisch psycholoog en integratief
                 psychotherapeut. Ik werk met volwassenen die vastlopen in
@@ -51,16 +48,16 @@ export default function OverMij() {
           </div>
 
           <div>
-            <h2 className="font-[var(--font-serif)] text-2xl text-sage-800 mb-4">
+            <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Werkwijze
             </h2>
-            <p className="text-sage-700/80 leading-relaxed mb-4">
+            <p className="text-sage-700 leading-relaxed mb-4">
               Ik werk vanuit een integratieve benadering. Dit betekent dat ik
               verschillende therapeutische stromingen combineer, afgestemd op
               wat bij jou past. De rode draad is steeds een warme, respectvolle
               relatie als basis voor verandering.
             </p>
-            <p className="text-sage-700/80 leading-relaxed">
+            <p className="text-sage-700 leading-relaxed">
               In een eerste kennismakingsgesprek luister ik naar jouw verhaal en
               bekijken we samen of er een goede match is. Daarna stippelen we
               samen een traject uit.
@@ -68,7 +65,7 @@ export default function OverMij() {
           </div>
 
           <div>
-            <h2 className="font-[var(--font-serif)] text-2xl text-sage-800 mb-4">
+            <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Therapeutische methoden
             </h2>
             <ul className="grid sm:grid-cols-2 gap-3">
@@ -92,11 +89,11 @@ export default function OverMij() {
 
           {/* KPNI */}
           <div>
-            <h2 className="font-[var(--font-serif)] text-2xl text-sage-800 mb-4">
+            <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Orthomoleculaire gezondheidszorg (kPNI)
             </h2>
             <div className="bg-warm-50 border border-warm-200 rounded-xl p-6">
-              <p className="text-sage-700/80 leading-relaxed mb-3">
+              <p className="text-sage-700 leading-relaxed mb-3">
                 Naast psychotherapie volg ik momenteel de postgraduaat{" "}
                 <strong className="text-sage-800">
                   Integrale Orthomoleculaire Gezondheidszorg volgens de kPNI
@@ -104,7 +101,7 @@ export default function OverMij() {
                 aan Hogeschool PXL. Deze opleiding richt zich op de
                 wisselwerking tussen voeding, leefstijl en psychisch welzijn.
               </p>
-              <p className="text-sage-700/80 leading-relaxed">
+              <p className="text-sage-700 leading-relaxed">
                 Met deze extra expertise kan ik lichaam en geest nog meer als
                 een geheel benaderen en je begeleiden met evidence-based advies
                 rond voeding, suppletie en leefstijl als aanvulling op
@@ -115,7 +112,7 @@ export default function OverMij() {
 
           {/* Ervaring */}
           <div>
-            <h2 className="font-[var(--font-serif)] text-2xl text-sage-800 mb-4">
+            <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Ervaring
             </h2>
             <div className="space-y-4">
@@ -164,7 +161,7 @@ export default function OverMij() {
 
           {/* Opleiding */}
           <div>
-            <h2 className="font-[var(--font-serif)] text-2xl text-sage-800 mb-4">
+            <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Opleiding
             </h2>
             <div className="space-y-4">
@@ -203,10 +200,10 @@ export default function OverMij() {
 
           {/* Erkenning */}
           <div>
-            <h2 className="font-[var(--font-serif)] text-2xl text-sage-800 mb-4">
+            <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Erkenningen
             </h2>
-            <ul className="space-y-2 text-sage-700/80 text-sm">
+            <ul className="space-y-2 text-sage-700 text-sm">
               <li>Klinisch psycholoog — visumnummer 261431</li>
               <li>Erkend door de Psychologencommissie — 942123340</li>
               <li>Integratief psychotherapeut</li>

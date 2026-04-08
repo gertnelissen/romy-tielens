@@ -10,7 +10,7 @@ const dmSans = DM_Sans({
 });
 
 const dmSerif = DM_Serif_Display({
-  variable: "--font-serif",
+  variable: "--font-dm-serif",
   weight: "400",
   subsets: ["latin"],
 });
@@ -19,6 +19,14 @@ export const metadata: Metadata = {
   title: "Romy Tielens | Psycholoog Hasselt",
   description:
     "Klinisch psycholoog en integratief psychotherapeut in Hasselt. Begeleiding bij angst, depressie, burn-out, trauma en meer.",
+  openGraph: {
+    title: "Romy Tielens | Psycholoog Hasselt",
+    description:
+      "Klinisch psycholoog en integratief psychotherapeut in Hasselt. Begeleiding bij angst, depressie, burn-out, trauma en meer.",
+    images: ["/romy.jpg"],
+    locale: "nl_BE",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

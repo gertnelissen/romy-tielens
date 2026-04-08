@@ -1,104 +1,102 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      {/* Hero */}
-      <section className="bg-gradient-to-b from-sage-50 to-warm-50 py-24 md:py-32">
-        <div className="max-w-5xl mx-auto px-6 text-center">
-          <h1 className="font-[var(--font-serif)] text-4xl md:text-5xl text-sage-800 mb-6 leading-tight">
-            Ruimte om te groeien,
-            <br />
-            op jouw tempo
-          </h1>
-          <p className="text-lg text-sage-700/80 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Samen ontdekken wat jij nodig hebt om je beter te voelen en het
-            leven weer ten volle te omarmen. Als klinisch psycholoog en
-            integratief psychotherapeut begeleid ik volwassenen in Hasselt.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/contact"
-              className="inline-block bg-sage-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-sage-700 transition-colors"
-            >
-              Maak een afspraak
-            </Link>
-            <Link
-              href="/aanbod"
-              className="inline-block border border-sage-300 text-sage-700 px-8 py-3 rounded-lg text-sm font-semibold hover:bg-sage-50 transition-colors"
-            >
-              Bekijk het aanbod
-            </Link>
+      {/* Hero with photo */}
+      <section className="bg-sage-50">
+        <div className="max-w-5xl mx-auto px-6 py-16 md:py-20 grid md:grid-cols-2 gap-10 items-center">
+          <div>
+            <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl md:text-5xl text-sage-900 mb-5 leading-tight">
+              Ruimte om te groeien, op jouw tempo
+            </h1>
+            <p className="text-base text-sage-700 max-w-lg mb-8 leading-relaxed">
+              Samen ontdekken wat jij nodig hebt om je beter te voelen en het
+              leven weer ten volle te omarmen. Als klinisch psycholoog en
+              integratief psychotherapeut begeleid ik volwassenen in Hasselt.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <Link
+                href="/contact"
+                className="inline-block bg-sage-600 text-white px-7 py-3 rounded-lg text-sm font-semibold hover:bg-sage-700 transition-colors text-center"
+              >
+                Maak een afspraak
+              </Link>
+              <Link
+                href="/aanbod"
+                className="inline-block border border-sage-300 text-sage-700 px-7 py-3 rounded-lg text-sm font-semibold hover:bg-sage-100 transition-colors text-center"
+              >
+                Bekijk het aanbod
+              </Link>
+            </div>
+          </div>
+          <div className="rounded-2xl aspect-[4/5] overflow-hidden shadow-lg">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/romy.jpg"
+              alt="Romy Tielens — klinisch psycholoog"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </section>
 
-      {/* Intro */}
-      <section className="py-20">
-        <div className="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-          <div className="relative rounded-2xl aspect-[4/5] overflow-hidden">
-            <Image
-              src="/romy.jpg"
-              alt="Romy Tielens — klinisch psycholoog"
-              fill
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, 50vw"
-              priority
-            />
-          </div>
-          <div>
-            <h2 className="font-[var(--font-serif)] text-3xl text-sage-800 mb-4">
-              Welkom
-            </h2>
-            <p className="text-sage-700/80 leading-relaxed mb-4">
-              Iedereen loopt wel eens vast. Soms lukt het om op eigen kracht
-              weer verder te gaan, maar soms kan professionele hulp het verschil
-              maken. Het is een moedige stap om hulp te zoeken.
-            </p>
-            <p className="text-sage-700/80 leading-relaxed mb-6">
-              In een veilige, warme omgeving gaan we samen op zoek naar wat voor
-              jou werkt. Ik werk vanuit een integratieve benadering, wat
-              betekent dat ik verschillende therapeutische methoden combineer op
-              maat van jouw noden.
-            </p>
-            <Link
-              href="/over-mij"
-              className="text-sage-600 font-semibold text-sm hover:text-sage-700 transition-colors"
-            >
-              Meer over mij &rarr;
-            </Link>
-          </div>
+      {/* Welkom */}
+      <section className="py-14">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
+            Welkom
+          </h2>
+          <p className="text-sage-700 leading-relaxed mb-3">
+            Iedereen loopt wel eens vast. Soms lukt het om op eigen kracht weer
+            verder te gaan, maar soms kan professionele hulp het verschil maken.
+            Het is een moedige stap om hulp te zoeken.
+          </p>
+          <p className="text-sage-700 leading-relaxed mb-5">
+            In een veilige, warme omgeving gaan we samen op zoek naar wat voor
+            jou werkt. Ik werk vanuit een integratieve benadering, wat betekent
+            dat ik verschillende therapeutische methoden combineer op maat van
+            jouw noden.
+          </p>
+          <Link
+            href="/over-mij"
+            className="text-sage-600 font-semibold text-sm hover:text-sage-700 transition-colors"
+          >
+            Meer over mij &rarr;
+          </Link>
         </div>
       </section>
 
       {/* Waarvoor */}
-      <section className="bg-sage-50 py-20">
+      <section className="bg-sage-50 py-14">
         <div className="max-w-5xl mx-auto px-6">
-          <h2 className="font-[var(--font-serif)] text-3xl text-sage-800 mb-10 text-center">
+          <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-8 text-center">
             Waarvoor kun je bij mij terecht?
           </h2>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
             {[
-              "Angst & paniek",
-              "Depressie",
-              "Burn-out & stress",
-              "Perfectionisme",
-              "Trauma",
-              "Rouw & verlies",
-              "Relatieconflicten",
-              "Hoogsensitiviteit",
-              "Postpartum depressie",
-            ].map((item) => (
+              { label: "Angst & paniek", icon: "M12 9v2m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" },
+              { label: "Depressie", icon: "M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" },
+              { label: "Burn-out & stress", icon: "M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" },
+              { label: "Perfectionisme", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+              { label: "Trauma", icon: "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" },
+              { label: "Rouw & verlies", icon: "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" },
+              { label: "Relatieconflicten", icon: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" },
+              { label: "Hoogsensitiviteit", icon: "M15 12a3 3 0 11-6 0 3 3 0 016 0z M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" },
+              { label: "Postpartum depressie", icon: "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" },
+            ].map(({ label, icon }) => (
               <div
-                key={item}
-                className="bg-white rounded-xl p-5 text-sage-700 text-sm shadow-sm"
+                key={label}
+                className="bg-white rounded-xl p-4 text-sage-800 text-sm shadow-sm flex items-center gap-3"
               >
-                {item}
+                <svg className="w-5 h-5 text-sage-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d={icon} />
+                </svg>
+                {label}
               </div>
             ))}
           </div>
-          <div className="text-center mt-8">
+          <div className="text-center mt-6">
             <Link
               href="/aanbod"
               className="text-sage-600 font-semibold text-sm hover:text-sage-700 transition-colors"
@@ -110,12 +108,12 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="py-20">
+      <section className="py-14">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <h2 className="font-[var(--font-serif)] text-3xl text-sage-800 mb-4">
+          <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-3">
             Klaar voor een eerste stap?
           </h2>
-          <p className="text-sage-700/80 mb-8">
+          <p className="text-sage-700 mb-6">
             Neem gerust contact op voor een kennismakingsgesprek. Samen bekijken
             we of ik de juiste persoon ben om jou te begeleiden.
           </p>

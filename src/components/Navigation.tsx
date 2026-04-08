@@ -22,7 +22,7 @@ export function Navigation() {
       <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link
           href="/"
-          className="font-[var(--font-serif)] text-xl text-sage-800 tracking-wide"
+          className="font-[family-name:var(--font-dm-serif)] text-xl text-sage-800 tracking-wide"
         >
           Romy Tielens
         </Link>

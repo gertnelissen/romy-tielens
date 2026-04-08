@@ -1,41 +1,34 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-sage-50: #f6f7f4;
-  --color-sage-100: #e8ebe3;
-  --color-sage-200: #d1d7c7;
-  --color-sage-300: #b3bda3;
-  --color-sage-400: #95a37f;
-  --color-sage-500: #7a8a65;
-  --color-sage-600: #5f6d4e;
-  --color-sage-700: #4a5540;
-  --color-sage-800: #3d4535;
-  --color-sage-900: #343b2f;
+  --color-sage-50: #f5f6f3;
+  --color-sage-100: #e6e9e1;
+  --color-sage-200: #cdd4c4;
+  --color-sage-300: #adb8a0;
+  --color-sage-400: #8f9d7d;
+  --color-sage-500: #748563;
+  --color-sage-600: #5c6a4d;
+  --color-sage-700: #49543f;
+  --color-sage-800: #3c4535;
+  --color-sage-900: #333b2e;
 
-  --color-warm-50: #fdf8f4;
-  --color-warm-100: #f5ebe0;
-  --color-warm-200: #eddcc8;
-  --color-warm-300: #dfc4a4;
-  --color-warm-400: #c9a27a;
-  --color-warm-500: #b8875e;
-  --color-warm-600: #a47251;
-  --color-warm-700: #895e45;
-  --color-warm-800: #704e3d;
-  --color-warm-900: #5d4234;
-
-  --color-blush-50: #fdf5f3;
-  --color-blush-100: #f9e8e3;
-  --color-blush-200: #f2d0c7;
-  --color-blush-300: #e8b0a1;
-  --color-blush-400: #d98a75;
-  --color-blush-500: #c96f57;
+  --color-warm-50: #faf8f5;
+  --color-warm-100: #f0ece5;
+  --color-warm-200: #e2dace;
+  --color-warm-300: #cfc2b0;
+  --color-warm-400: #b5a28a;
+  --color-warm-500: #a08b70;
+  --color-warm-600: #8a7460;
+  --color-warm-700: #725f50;
+  --color-warm-800: #5e4f44;
+  --color-warm-900: #4e423a;
 
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-dm-serif);
 }
 
 body {
-  background: #fdf8f4;
-  color: #3d4535;
+  background: #faf8f5;
+  color: #3c4535;
   font-family: var(--font-sans), system-ui, sans-serif;
 }

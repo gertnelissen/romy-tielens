@@ -9,22 +9,26 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <>
-      <section className="bg-sage-50 py-16">
+      <section className="bg-sage-50 py-12">
         <div className="max-w-3xl mx-auto px-6">
-          <h1 className="font-[var(--font-serif)] text-4xl text-sage-800 mb-4">
+          <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             Contact
           </h1>
-          <p className="text-sage-700/70 text-lg">
+          <p className="text-sage-600 text-lg">
             Wil je een afspraak maken of heb je een vraag? Neem gerust contact
             op.
           </p>
         </div>
       </section>
 
-      <section className="py-16">
+      <section className="py-12">
         <div className="max-w-3xl mx-auto px-6 grid md:grid-cols-2 gap-12">
           {/* Form */}
-          <form className="space-y-5">
+          <form
+            action="https://formspree.io/f/xplaceholder"
+            method="POST"
+            className="space-y-5"
+          >
             <div>
               <label
                 htmlFor="name"
@@ -102,7 +106,7 @@ export default function Contact() {
               <h2 className="font-semibold text-sage-800 mb-2">
                 Rechtstreeks contacteren
               </h2>
-              <ul className="text-sm text-sage-700/80 space-y-2">
+              <ul className="text-sm text-sage-700 space-y-2">
                 <li>
                   <a
                     href="mailto:romy@praktijkkadans.be"
@@ -124,7 +128,7 @@ export default function Contact() {
 
             <div>
               <h2 className="font-semibold text-sage-800 mb-2">Locatie</h2>
-              <p className="text-sage-700/80 text-sm leading-relaxed">
+              <p className="text-sage-700 text-sm leading-relaxed">
                 Zorgpraktijk Kadans
                 <br />
                 Kempische Steenweg 565
@@ -137,7 +141,7 @@ export default function Contact() {
               <h2 className="font-semibold text-sage-800 mb-2">
                 Beschikbaarheid
               </h2>
-              <ul className="text-sm text-sage-700/80 space-y-1">
+              <ul className="text-sm text-sage-700 space-y-1">
                 <li>Maandag: 13:00 - 17:00</li>
                 <li>Woensdag: 09:00 - 20:00</li>
                 <li>Donderdag: 08:00 - 17:00</li>
@@ -145,7 +149,7 @@ export default function Contact() {
             </div>
 
             <div className="bg-warm-50 border border-warm-200 rounded-xl p-5">
-              <p className="text-sm text-sage-700/80 leading-relaxed">
+              <p className="text-sm text-sage-700 leading-relaxed">
                 <strong className="text-sage-800">
                   Eerste keer contact opnemen?
                 </strong>{" "}
@@ -156,6 +160,20 @@ export default function Contact() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Map */}
+      <section className="pb-0">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2516.8!2d5.3523!3d50.9295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c12185e5e1e46d%3A0x4a6a4b7f8b3a3e2f!2sKempische%20Steenweg%20565%2C%203500%20Hasselt!5e0!3m2!1snl!2sbe!4v1700000000000"
+          width="100%"
+          height="300"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          title="Zorgpraktijk Kadans — Kempische Steenweg 565, Hasselt"
+        />
       </section>
     </>
   );

@@ -9,22 +9,22 @@ export const metadata: Metadata = {
 export default function Praktisch() {
   return (
     <>
-      <section className="bg-sage-50 py-16">
+      <section className="bg-sage-50 py-12">
         <div className="max-w-3xl mx-auto px-6">
-          <h1 className="font-[var(--font-serif)] text-4xl text-sage-800 mb-4">
+          <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             Praktische info
           </h1>
-          <p className="text-sage-700/70 text-lg">
+          <p className="text-sage-600 text-lg">
             Alles wat je moet weten voor een eerste afspraak.
           </p>
         </div>
       </section>
 
-      <section className="py-16">
-        <div className="max-w-3xl mx-auto px-6 space-y-14">
+      <section className="py-12">
+        <div className="max-w-3xl mx-auto px-6 space-y-10">
           {/* Tarieven */}
           <div>
-            <h2 className="font-[var(--font-serif)] text-2xl text-sage-800 mb-4">
+            <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Tarieven
             </h2>
             <div className="bg-white border border-sage-100 rounded-xl p-6 shadow-sm">
@@ -44,10 +44,10 @@ export default function Praktisch() {
 
           {/* Terugbetaling */}
           <div>
-            <h2 className="font-[var(--font-serif)] text-2xl text-sage-800 mb-4">
+            <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Terugbetaling
             </h2>
-            <div className="space-y-3 text-sage-700/80 leading-relaxed">
+            <div className="space-y-3 text-sage-700 leading-relaxed">
               <p>
                 Als erkend klinisch psycholoog komen sessies in aanmerking voor
                 gedeeltelijke terugbetaling via je mutualiteit. Het bedrag
@@ -63,14 +63,14 @@ export default function Praktisch() {
 
           {/* Locatie */}
           <div>
-            <h2 className="font-[var(--font-serif)] text-2xl text-sage-800 mb-4">
+            <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Locatie
             </h2>
             <div className="bg-white border border-sage-100 rounded-xl p-6 shadow-sm">
               <p className="font-semibold text-sage-800 mb-1">
                 Zorgpraktijk Kadans
               </p>
-              <p className="text-sage-700/80 text-sm">
+              <p className="text-sage-700 text-sm">
                 Kempische Steenweg 565
                 <br />
                 3500 Hasselt
@@ -80,7 +80,7 @@ export default function Praktisch() {
 
           {/* Openingsuren */}
           <div>
-            <h2 className="font-[var(--font-serif)] text-2xl text-sage-800 mb-4">
+            <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Beschikbaarheid
             </h2>
             <div className="bg-white border border-sage-100 rounded-xl overflow-hidden shadow-sm">
@@ -104,7 +104,7 @@ export default function Praktisch() {
 
           {/* Verloop */}
           <div>
-            <h2 className="font-[var(--font-serif)] text-2xl text-sage-800 mb-4">
+            <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Hoe verloopt een eerste afspraak?
             </h2>
             <ol className="space-y-4">
@@ -128,7 +128,7 @@ export default function Praktisch() {
                   </span>
                   <div>
                     <p className="font-semibold text-sage-800">{step}</p>
-                    <p className="text-sm text-sage-700/70">{text}</p>
+                    <p className="text-sm text-sage-600">{text}</p>
                   </div>
                 </li>
               ))}
@@ -137,10 +137,10 @@ export default function Praktisch() {
 
           {/* Talen */}
           <div>
-            <h2 className="font-[var(--font-serif)] text-2xl text-sage-800 mb-4">
+            <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Talen
             </h2>
-            <p className="text-sage-700/80">
+            <p className="text-sage-700">
               Sessies zijn mogelijk in het <strong>Nederlands</strong> en{" "}
               <strong>Engels</strong>.
             </p>
