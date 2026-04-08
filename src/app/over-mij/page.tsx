@@ -69,9 +69,9 @@ export default function OverMij() {
               respectvolle relatie als basis voor verandering.
             </p>
             <p className="text-stone-700 leading-relaxed">
-              In een eerste kennismakingsgesprek luister ik naar jouw verhaal.
+              In een eerste intakegesprek luister ik naar jouw verhaal.
               Samen bekijken we of er een goede match is en stippelen we een
-              traject uit — op jouw tempo.
+              traject uit dat bij jou past.
             </p>
           </div>
 
@@ -132,24 +132,32 @@ export default function OverMij() {
             <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Erkenningen
             </h2>
-            <div className="grid sm:grid-cols-3 gap-4 text-base text-stone-600">
-              <div>
-                <p className="font-medium text-sage-800">Visumnummer</p>
-                <p>261431</p>
+            <div className="grid sm:grid-cols-2 gap-6 text-base text-stone-600">
+              <div className="space-y-3">
+                <div>
+                  <p className="font-medium text-sage-800">Visumnummer</p>
+                  <p>261431</p>
+                </div>
+                <div>
+                  <p className="font-medium text-sage-800">
+                    Psychologencommissie
+                  </p>
+                  <p>942123340</p>
+                </div>
               </div>
               <div>
-                <p className="font-medium text-sage-800">
-                  Psychologencommissie
-                </p>
-                <p>942123340</p>
-              </div>
-              <div>
-                <p className="font-medium text-sage-800">Opleiding</p>
-                <p>
-                  Master KU Leuven
-                  <br />
-                  Postgraduaat UAntwerpen
-                </p>
+                <p className="font-medium text-sage-800 mb-2">Opleiding</p>
+                <ul className="space-y-1.5">
+                  <li>Master Klinische Psychologie — KU Leuven (2018)</li>
+                  <li>
+                    Postgraduaat Integratieve Psychotherapie — UAntwerpen
+                    (2024)
+                  </li>
+                  <li>
+                    Postgraduaat Orthomoleculaire Gezondheidszorg (kPNI) —
+                    Hogeschool PXL
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -162,13 +170,13 @@ export default function OverMij() {
             Klaar voor een eerste stap?
           </h2>
           <p className="text-stone-700 mb-6">
-            Neem gerust contact op voor een vrijblijvend kennismakingsgesprek.
+            Neem contact op om een intakegesprek in te plannen.
           </p>
           <Link
             href="/contact"
             className="inline-block bg-accent-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors"
           >
-            Neem contact op
+            Plan een intakegesprek
           </Link>
         </div>
       </section>

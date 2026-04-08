@@ -16,14 +16,12 @@ subtitle: "Leren dat goed genoeg ook goed is."
 
 ## Hoe ik je kan helpen
 
-Perfectionisme lijkt soms een kracht, maar het kan je ook gevangen houden. De drang om alles perfect te doen leidt vaak tot uitputting, uitstelgedrag of het vermijden van nieuwe uitdagingen. Samen onderzoeken we waar die hoge eisen vandaan komen.
+Perfectionisme lijkt soms een kracht, maar het kan je ook gevangen houden. De drang om alles perfect te doen leidt vaak tot uitputting, uitstelgedrag of het vermijden van nieuwe uitdagingen.
 
-Via schematherapie kijken we naar de vroege patronen en overtuigingen die aan de basis liggen — vaak aangeleerd in je kindertijd. Met cognitieve gedragstherapie (CGT) leer je perfectionistisch denken herkennen en bijsturen. We oefenen met het loslaten van controle en het toelaten van "imperfectie".
-
-Zelfcompassie-technieken helpen je om milder en warmer naar jezelf te leren kijken, in plaats van jezelf voortdurend af te rekenen op wat beter had gekund.
+Je leert je innerlijke criticus herkennen en bijsturen, en ontdekt waar die hoge eisen vandaan komen. Je oefent met het loslaten van controle en het toelaten van "imperfectie". En je leert milder naar jezelf te kijken. Daarvoor combineer ik schematherapie, CGT en zelfcompassie-technieken.
 
 ## Wat kun je verwachten?
 
-We starten met een kennismakingsgesprek waarin je vertelt wat perfectionisme voor jou betekent en hoe het je dagelijks leven beïnvloedt. Samen stellen we doelen op die haalbaar en realistisch zijn.
+We starten met een intakegesprek waarin je vertelt wat perfectionisme voor jou betekent en hoe het je dagelijks leven beïnvloedt. Samen stellen we doelen op die haalbaar en realistisch zijn.
 
 Perfectionisme loslaten is een proces. Het gaat niet om slordig worden, maar om ruimte maken voor flexibiliteit. Gaandeweg merk je dat je minder angst voelt en meer vrijheid ervaart.

@@ -9,12 +9,12 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-6 py-14 md:py-16 grid md:grid-cols-[1fr_340px] gap-10 items-center">
           <div>
             <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl md:text-5xl text-sage-900 mb-5 leading-tight">
-              Ruimte om te groeien, op jouw tempo
+              Ruimte om te groeien
             </h1>
             <p className="text-base text-stone-700 max-w-lg mb-8 leading-relaxed">
-              Samen ontdekken wat jij nodig hebt om je beter te voelen en het
-              leven weer ten volle te omarmen. Als klinisch psycholoog en
-              integratief psychotherapeut begeleid ik volwassenen in Hasselt.
+              Klinisch psycholoog en integratief psychotherapeut met meer dan
+              7 jaar ervaring in de psychiatrie. Ik begeleid volwassenen in
+              Hasselt en online bij angst, burn-out, depressie en meer.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
@@ -44,29 +44,59 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Welkom */}
+      {/* Trust bar */}
+      <section className="border-b border-stone-200 bg-stone-50">
+        <div className="max-w-5xl mx-auto px-6 py-4 flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm text-stone-500 text-center">
+          <span>7+ jaar klinische ervaring</span>
+          <span className="hidden sm:inline" aria-hidden="true">&middot;</span>
+          <span>Erkend klinisch psycholoog</span>
+          <span className="hidden sm:inline" aria-hidden="true">&middot;</span>
+          <span>Jessa Ziekenhuis &amp; Kadans</span>
+          <span className="hidden sm:inline" aria-hidden="true">&middot;</span>
+          <span>Terugbetaling mutualiteit</span>
+        </div>
+      </section>
+
+      {/* Twijfel je? */}
       <section className="py-14">
-        <div className="max-w-3xl mx-auto px-6 text-center">
-          <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
-            Welkom
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-6 text-center">
+            Twijfel je nog?
           </h2>
-          <p className="text-stone-700 leading-relaxed mb-3">
-            Iedereen loopt wel eens vast. Soms lukt het om op eigen kracht weer
-            verder te gaan, maar soms kan professionele hulp het verschil maken.
-            Het is een moedige stap om hulp te zoeken.
-          </p>
-          <p className="text-stone-700 leading-relaxed mb-5">
-            In een veilige, warme omgeving gaan we samen op zoek naar wat voor
-            jou werkt. Ik werk vanuit een integratieve benadering, wat betekent
-            dat ik verschillende therapeutische methoden combineer op maat van
-            jouw noden.
-          </p>
-          <Link
-            href="/over-mij"
-            className="text-sage-600 font-semibold text-sm hover:text-stone-700 transition-colors"
-          >
-            Meer over mij &rarr;
-          </Link>
+          <ul className="space-y-4 mb-6">
+            {[
+              "Je hoeft niet precies te weten wat er aan de hand is — dat zoeken we samen uit.",
+              "Geen klacht is te klein of te groot. Als het jou bezighoudt, is het de moeite waard.",
+              "In een intakegesprek bekijken we of er een goede klik is.",
+              "Alles wat je deelt is strikt vertrouwelijk (beroepsgeheim).",
+            ].map((item) => (
+              <li key={item} className="flex gap-3 text-stone-700">
+                <svg
+                  className="w-5 h-5 text-sage-500 shrink-0 mt-0.5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 12l2 2 4-4"
+                  />
+                </svg>
+                {item}
+              </li>
+            ))}
+          </ul>
+          <div className="text-center">
+            <Link
+              href="/praktisch"
+              className="text-sage-600 font-semibold text-sm hover:text-stone-700 transition-colors"
+            >
+              Meer over een eerste sessie &rarr;
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -118,14 +148,14 @@ export default function Home() {
             Klaar voor een eerste stap?
           </h2>
           <p className="text-stone-700 mb-6">
-            Neem gerust contact op voor een kennismakingsgesprek. Samen bekijken
-            we of ik de juiste persoon ben om jou te begeleiden.
+            Neem contact op voor een intakegesprek. Samen bekijken we
+            of ik de juiste persoon ben om jou te begeleiden.
           </p>
           <Link
             href="/contact"
             className="inline-block bg-accent-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors"
           >
-            Neem contact op
+            Plan een intakegesprek
           </Link>
         </div>
       </section>

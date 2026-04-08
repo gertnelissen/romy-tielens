@@ -11,73 +11,73 @@ const topics = [
   {
     title: "Angst & paniek",
     description:
-      "Overmatige zorgen, paniekaanvallen, fobieën of een algemeen gevoel van angst dat je dagelijks leven beïnvloedt.",
+      "Piekeren, vermijden, paniekaanvallen — angst kan heel veel vormen aannemen.",
     href: "/aanbod/angst",
   },
   {
     title: "Depressie & somberheid",
     description:
-      "Aanhoudende somberheid, verlies van interesse of motivatie, vermoeidheid en gevoelens van hopeloosheid.",
+      "Alles kost moeite. De motivatie is weg. En 'trek je er niets van aan' helpt niet.",
     href: "/aanbod/depressie",
   },
   {
     title: "Burn-out & stress",
     description:
-      "Uitputting door werk of privé, het gevoel niet meer te kunnen, piekeren en lichamelijke stressklachten.",
+      "Op. Helemaal op. En toch blijf je doorgaan.",
     href: "/aanbod/burn-out",
   },
   {
     title: "Perfectionisme",
     description:
-      "Onrealistische verwachtingen naar jezelf, faalangst, moeite met fouten maken en nooit tevreden zijn.",
+      "Nooit goed genoeg? Altijd bang om fouten te maken?",
     href: "/aanbod/perfectionisme",
   },
   {
     title: "Trauma",
     description:
-      "Verwerking van ingrijpende ervaringen, nachtmerries, herbelevingen of vermijdingsgedrag.",
+      "Ingrijpende ervaringen die je maar niet kunt loslaten.",
     href: "/aanbod/trauma",
   },
   {
     title: "Rouw & verlies",
     description:
-      "Omgaan met het verlies van een dierbare, een relatie, werk of gezondheid.",
+      "Verlies verwerken gaat niet volgens een vast schema.",
     href: "/aanbod/rouw",
   },
   {
     title: "Relatieconflicten",
     description:
-      "Terugkerende patronen in relaties, communicatieproblemen of moeilijkheden in de band met anderen.",
+      "Steeds dezelfde ruzies? Patronen die je niet doorbroken krijgt?",
     href: "/aanbod/relatieconflicten",
   },
   {
     title: "Hoogsensitiviteit",
     description:
-      "Leren omgaan met prikkels, grenzen stellen en je kwaliteiten als hoogsensitief persoon benutten.",
+      "Snel overprikkeld, alles voelt intenser dan bij anderen.",
     href: "/aanbod/hoogsensitiviteit",
   },
   {
     title: "Vruchtbaarheid & kinderwens",
     description:
-      "De emotionele impact van fertiliteitstrajecten, miskramen of een onvervulde kinderwens.",
+      "De emotionele achtbaan van een kinderwenstraject.",
     href: "/aanbod/vruchtbaarheid",
   },
   {
     title: "Postpartum depressie",
     description:
-      "Sombere gevoelens, angst of overweldiging na de geboorte van een kind.",
+      "Je 'hoort' gelukkig te zijn. En dat maakt het extra zwaar.",
     href: "/aanbod/postpartum",
   },
   {
     title: "Zelfverwonding",
     description:
-      "Begeleiding bij zelfbeschadigend gedrag en het ontwikkelen van gezondere copingstrategieën.",
+      "Op zoek naar andere manieren om met pijn om te gaan.",
     href: "/aanbod/zelfverwonding",
   },
   {
     title: "Middelengebruik",
     description:
-      "Problematisch gebruik van alcohol, drugs of andere middelen en de onderliggende oorzaken ervan.",
+      "Het middel is zelden het echte probleem.",
     href: "/aanbod/middelengebruik",
   },
 ];
@@ -136,14 +136,14 @@ export default function Aanbod() {
 
           <div className="mt-12 bg-sage-50 border border-sage-200 rounded-xl p-8 text-center">
             <p className="text-stone-700 mb-4">
-              Vind je je klacht niet in dit overzicht? Neem gerust contact op —
-              samen bekijken we of ik je kan helpen.
+              Vind je je klacht niet in dit overzicht? Neem contact op —
+              we bekijken samen of ik je kan helpen.
             </p>
             <Link
               href="/contact"
               className="inline-block bg-accent-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors"
             >
-              Neem contact op
+              Plan een intakegesprek
             </Link>
           </div>
         </div>

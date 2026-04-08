@@ -9,7 +9,7 @@ const links = [
   { href: "/over-mij", label: "Over mij" },
   { href: "/aanbod", label: "Aanbod" },
   { href: "/voor-bedrijven", label: "Voor bedrijven" },
-  { href: "/praktisch", label: "Praktisch" },
+  { href: "/praktisch", label: "Tarieven & info" },
 ];
 
 export function Navigation() {

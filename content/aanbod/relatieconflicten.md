@@ -18,12 +18,10 @@ subtitle: "Inzicht in patronen die relaties bemoeilijken."
 
 Relatieproblemen gaan zelden alleen over de ander. Vaak spelen onbewuste patronen mee die je al van jongs af aan hebt ontwikkeld. Die patronen bepalen hoe je reageert op nabijheid, conflict en kwetsbaarheid.
 
-Met schematherapie onderzoeken we welke relationele schema's je hebt opgebouwd — bijvoorbeeld de overtuiging dat je niet belangrijk genoeg bent, of dat je altijd moet zorgen voor anderen. Via assertiviteitstraining oefen je met het aangeven van je grenzen en behoeften op een respectvolle manier.
-
-Emotion-Focused Therapy (EFT) helpt je om de kwetsbare emoties onder je gedrag te herkennen en uit te drukken. Zo ontstaat er meer ruimte voor eerlijke, verbindende communicatie.
+Je krijgt inzicht in welke relationele patronen je herhaalt en waar die vandaan komen. Je oefent met het aangeven van je grenzen en behoeften, en leert de kwetsbare emoties onder je gedrag herkennen en uitdrukken. Zo ontstaat er meer ruimte voor eerlijke communicatie. Ik werk hierbij met schematherapie, assertiviteitstraining en Emotion-Focused Therapy.
 
 ## Wat kun je verwachten?
 
-In het eerste gesprek breng ik samen met jou in kaart welke patronen je herkent in je relaties. We kijken naar hoe je bent opgegroeid en welke overtuigingen je hebt meegekregen.
+In het eerste gesprek verkennen we samen welke patronen je herkent in je relaties. We kijken naar hoe je bent opgegroeid en welke overtuigingen je hebt meegekregen.
 
 Verandering in relatiepatronen vraagt oefening en moed. Het kan oncomfortabel voelen om anders te reageren dan je gewend bent. Maar gaandeweg merk je dat je relaties dieper en eerlijker worden.

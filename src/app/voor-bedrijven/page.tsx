@@ -173,7 +173,7 @@ export default function VoorBedrijven() {
               href="/contact"
               className="inline-block bg-accent-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors"
             >
-              Neem contact op
+              Plan een intakegesprek
             </Link>
           </div>
         </div>

@@ -16,14 +16,16 @@ subtitle: "Weer in balans komen — met professionele begeleiding."
 
 ## Hoe ik je kan helpen
 
-Burn-out is meer dan "even moe zijn". Het is een teken dat je lichaam en geest al langere tijd over hun grenzen gaan. In therapie gaan we samen op zoek naar de onderliggende patronen: waarom bleef je doorgaan? Welke overtuigingen drijven je aan?
+Burn-out is meer dan "even moe zijn". Het is een teken dat je lichaam en geest al langere tijd over hun grenzen gaan.
 
-Ik werk vanuit een integratieve benadering, waarbij ik cognitieve gedragstherapie (om denkpatronen te herkennen en bij te sturen), schematherapie (om diepere patronen te begrijpen) en lichaamsgerichte technieken combineer.
+Je leert herkennen wanneer je over je grenzen gaat, en hoe je dat kunt doorbreken. We onderzoeken welke overtuigingen je aandrijven en hoe je daar anders mee kunt omgaan. Daarvoor combineer ik verschillende methoden — onder andere CGT, schematherapie en lichaamsgerichte technieken.
 
-Vanuit mijn opleiding in orthomoleculaire gezondheidszorg (kPNI) kan ik ook kijken naar de rol van voeding, slaap en leefstijl in je herstelproces.
+## Lichaam en geest
+
+Vanuit mijn opleiding in klinische psycho-neuro-immunologie (kPNI) kijk ik ook naar de wisselwerking tussen lichaam en geest. Voeding, slaap en leefstijl spelen een grote rol bij burn-out. Ik kan je hierin begeleiden met evidence-based advies, als aanvulling op psychotherapie.
 
 ## Wat kun je verwachten?
 
-In een eerste kennismakingsgesprek luister ik naar je verhaal. Samen brengen we in kaart wat er speelt en bekijken we welke aanpak het best bij jou past.
+In een eerste intakegesprek luister ik naar je verhaal. Samen bekijken we wat er speelt en welke aanpak het best bij jou past.
 
 Een burn-out traject duurt doorgaans meerdere maanden. De frequentie stemmen we samen af — wekelijks in het begin, afbouwend naarmate je je beter voelt.

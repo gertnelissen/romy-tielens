@@ -84,6 +84,33 @@ export function ContactForm() {
       </div>
       <div>
         <label
+          htmlFor="topic"
+          className="block text-sm font-medium text-sage-700 mb-1"
+        >
+          Waarvoor zoek je hulp?{" "}
+          <span className="text-stone-400 font-normal">(optioneel)</span>
+        </label>
+        <select
+          id="topic"
+          name="topic"
+          className="w-full border border-sage-200 rounded-lg px-4 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-sage-500 focus:border-sage-400"
+        >
+          <option value="">Kies een thema...</option>
+          <option value="angst">Angst &amp; paniek</option>
+          <option value="depressie">Depressie</option>
+          <option value="burn-out">Burn-out &amp; stress</option>
+          <option value="perfectionisme">Perfectionisme</option>
+          <option value="trauma">Trauma</option>
+          <option value="rouw">Rouw &amp; verlies</option>
+          <option value="relatieconflicten">Relatieconflicten</option>
+          <option value="hoogsensitiviteit">Hoogsensitiviteit</option>
+          <option value="vruchtbaarheid">Vruchtbaarheid &amp; kinderwens</option>
+          <option value="postpartum">Postpartum depressie</option>
+          <option value="anders">Iets anders</option>
+        </select>
+      </div>
+      <div>
+        <label
           htmlFor="message"
           className="block text-sm font-medium text-sage-700 mb-1"
         >

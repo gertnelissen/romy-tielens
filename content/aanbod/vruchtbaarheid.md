@@ -18,7 +18,7 @@ subtitle: "Emotionele steun bij een ingrijpend traject."
 
 Een kinderwenstraject is een van de meest ingrijpende ervaringen die je kunt meemaken. De hoop, de teleurstelling, het wachten — het raakt aan alles. Toch wordt de emotionele kant vaak onderschat, ook door je omgeving. In therapie krijg je de ruimte die je verdient.
 
-Met Emotion-Focused Therapy (EFT) verwerk je het verdriet en verlies dat bij dit traject hoort — of het nu gaat om een miskraam, een mislukte behandeling of het loslaten van een droom. Cliëntgerichte therapie zorgt ervoor dat je je gehoord en begrepen voelt, zonder oordeel.
+Met Emotion-Focused Therapy (EFT) verwerk je het verdriet en verlies dat bij dit traject hoort — of het nu gaat om een miskraam, een mislukte behandeling of het loslaten van een droom. Cliëntgerichte therapie zorgt ervoor dat je je gehoord en begrepen voelt.
 
 Daarnaast bied ik psycho-educatie over de emotionele impact van vruchtbaarheidsbehandelingen, zodat je beter begrijpt waarom dit traject zo zwaar kan zijn en hoe je er als koppel doorheen kunt navigeren.
 

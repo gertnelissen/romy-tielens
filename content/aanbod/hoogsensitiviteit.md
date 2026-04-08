@@ -5,12 +5,10 @@ seoDescription: "Ben je hoogsensitief en wil je daar beter mee leren omgaan? Kli
 subtitle: "Je gevoeligheid als kracht leren zien."
 ---
 
-## Herken je dit?
+## Ben je hoogsensitief?
 
 - Je raakt snel overprikkeld door drukte, geluid of licht
-- Je denkt diep na over dingen en verwerkt ervaringen intenser dan anderen
-- Je emoties zijn heftig — zowel de positieve als de moeilijke
-- Je hebt meer alleen-tijd nodig dan de mensen om je heen
+- Je verwerkt ervaringen intenser dan anderen en hebt meer alleen-tijd nodig
 - Grenzen stellen voelt lastig en je neemt snel te veel op je
 - Je hebt vaak het gevoel dat je anders bent dan de rest
 

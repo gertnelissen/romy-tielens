@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact | Romy Tielens",
     description:
-      "Neem contact op voor een afspraak bij psycholoog Romy Tielens in Hasselt. Vrijblijvend kennismakingsgesprek.",
+      "Neem contact op voor een afspraak bij psycholoog Romy Tielens in Hasselt.",
   },
 };
 
@@ -28,8 +28,7 @@ export default function Contact() {
             Contact
           </h1>
           <p className="text-stone-700 text-lg">
-            Wil je een afspraak maken of heb je een vraag? Neem gerust contact
-            op.
+            Wil je een afspraak maken of heb je een vraag? Neem contact op.
           </p>
         </div>
       </section>
@@ -85,7 +84,7 @@ export default function Contact() {
                   Eerste keer contact opnemen?
                 </strong>{" "}
                 Vermeld kort waarvoor je hulp zoekt, zodat ik al een eerste
-                idee heb bij ons kennismakingsgesprek.
+                idee heb bij ons intakegesprek.
               </p>
             </div>
           </div>

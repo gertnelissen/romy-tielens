@@ -130,7 +130,7 @@ export default function Doorverwijzers() {
                 },
                 {
                   step: "Eerste afspraak",
-                  text: "Binnen de huidige wachttijd (~1 maand) wordt een kennismakingsgesprek ingepland. Ik bekijk samen met de patiënt of er een goede match is.",
+                  text: "Binnen de huidige wachttijd (~1 maand) wordt een intakegesprek ingepland. Ik bekijk samen met de patiënt of er een goede match is.",
                 },
                 {
                   step: "Terugkoppeling",
@@ -204,7 +204,7 @@ export default function Doorverwijzers() {
               href="/contact"
               className="inline-block bg-accent-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors"
             >
-              Neem contact op
+              Plan een intakegesprek
             </Link>
           </div>
         </div>

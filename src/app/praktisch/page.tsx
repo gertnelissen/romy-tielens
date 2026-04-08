@@ -94,6 +94,10 @@ export default function Praktisch() {
                   &euro;85
                 </p>
               </div>
+              <p className="text-sm text-stone-500 mt-2">
+                Bij ELP is het tarief hoger, maar ontvang je een groter bedrag
+                terug via je mutualiteit.
+              </p>
             </div>
           </div>
 
@@ -189,8 +193,8 @@ export default function Praktisch() {
             <div className="mt-3 bg-sage-50 border border-sage-200 rounded-xl p-4">
               <p className="text-base text-stone-700">
                 <strong className="text-sage-800">Wachtlijst:</strong>{" "}
-                Momenteel is er een wachttijd van ongeveer 1 maand. Neem gerust
-                al contact op zodat ik je op de wachtlijst kan plaatsen.
+                Momenteel is er een wachttijd van ongeveer 1 maand. Neem
+                alvast contact op zodat ik je op de wachtlijst kan plaatsen.
               </p>
             </div>
           </div>
@@ -228,7 +232,7 @@ export default function Praktisch() {
             </ol>
             <div className="mt-5 bg-sage-50 border border-sage-200 rounded-xl p-5">
               <p className="text-base text-stone-700 leading-relaxed">
-                Een eerste gesprek is altijd vrijblijvend. Je hoeft niet precies
+                Een eerste gesprek is een kennismaking. Je hoeft niet precies
                 te weten wat er aan de hand is — dat zoeken we samen uit. Er is
                 geen druk om alles meteen te vertellen.
               </p>
@@ -304,13 +308,13 @@ export default function Praktisch() {
             Klaar om een afspraak te maken?
           </h2>
           <p className="text-stone-700 mb-6">
-            Neem gerust contact op. Een eerste gesprek is altijd vrijblijvend.
+            Neem contact op om een intakegesprek in te plannen.
           </p>
           <Link
             href="/contact"
             className="inline-block bg-accent-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors"
           >
-            Neem contact op
+            Plan een intakegesprek
           </Link>
         </div>
       </section>

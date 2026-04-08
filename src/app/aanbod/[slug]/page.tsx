@@ -184,15 +184,6 @@ export default async function AanbodDetail({
             </div>
           )}
 
-          <div className="bg-sage-50 border border-sage-200 rounded-xl p-6 text-base text-stone-700 leading-relaxed">
-            <p className="font-semibold text-sage-800 mb-2">Praktisch</p>
-            <p>
-              Sessies duren 50-60 minuten. Tarief: €75 (individueel) of €85
-              (eerstelijnspsychologie met doorverwijzing huisarts).
-              Gedeeltelijke terugbetaling via je mutualiteit is mogelijk.
-            </p>
-          </div>
-
           {related.length > 0 && (
             <div>
               <p className="text-base text-stone-600">
@@ -217,10 +208,19 @@ export default async function AanbodDetail({
               href="/contact"
               className="inline-block bg-accent-600 text-white px-8 py-3 rounded-lg text-base font-semibold hover:bg-accent-700 transition-colors"
             >
-              Neem contact op
+              Plan een intakegesprek
             </Link>
             <p className="text-sm text-stone-600 mt-3">
-              Huidige wachttijd: ~1 maand
+              Wachttijd: ~1 maand. Neem nu contact op om je plek te reserveren.
+            </p>
+          </div>
+
+          <div className="bg-sage-50 border border-sage-200 rounded-xl p-6 text-base text-stone-700 leading-relaxed">
+            <p className="font-semibold text-sage-800 mb-2">Praktisch</p>
+            <p>
+              Sessies duren 50-60 minuten. Tarief: €75 (individueel) of €85
+              (eerstelijnspsychologie met doorverwijzing huisarts).
+              Gedeeltelijke terugbetaling via je mutualiteit is mogelijk.
             </p>
           </div>
         </div>

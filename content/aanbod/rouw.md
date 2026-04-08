@@ -16,14 +16,9 @@ subtitle: "Ruimte voor wat je verloren hebt."
 
 ## Hoe ik je kan helpen
 
-Rouw heeft geen vast tijdschema en geen "juiste" manier. Iedereen rouwt anders, en dat is oké. In therapie bied ik je een veilige plek waar je verdriet er mag zijn — zonder oordeel, zonder druk om "erover te komen".
+Rouw heeft geen vast tijdschema en geen "juiste" manier. Iedereen rouwt anders, en dat is oké. In therapie bied ik je een veilige plek waar je verdriet er mag zijn — zonder druk om "erover te komen".
 
 Via Emotion-Focused Therapy (EFT) help ik je om de intense emoties die bij rouw horen — verdriet, woede, schuld, gemis — toe te laten en te verwerken. Cliëntgerichte therapie vormt de basis: ik luister naar jouw verhaal en volg jouw tempo.
 
 Samen zoeken we naar een manier om het verlies een plek te geven in je leven, zonder dat het je volledig overneemt. Het doel is niet om te vergeten, maar om verder te kunnen met wat je meedraagt.
 
-## Wat kun je verwachten?
-
-In een eerste gesprek vertel je in alle rust wat je hebt meegemaakt. Er is geen verwachting — je hoeft niet sterk te zijn of je verhaal "goed" te vertellen.
-
-Een rouwtraject verloopt in jouw tempo. Soms zijn er weken waarin het beter gaat, gevolgd door moeilijkere periodes. Dat is normaal. We stemmen de frequentie af op wat jij nodig hebt.
