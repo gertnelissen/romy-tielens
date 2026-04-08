@@ -45,11 +45,10 @@ export function Footer() {
         </div>
         <div>
           <h3 className="font-semibold text-white mb-3">Erkenningen</h3>
-          <p className="text-sm leading-relaxed">
-            Visumnummer: 261431
-            <br />
-            Psychologencommissie: 942123340
-          </p>
+          <ul className="text-sm space-y-1">
+            <li>Visum: 261431</li>
+            <li>Psychologencie: 942123340</li>
+          </ul>
         </div>
       </div>
       <div className="border-t border-sage-700 py-4 px-6">

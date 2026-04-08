@@ -91,7 +91,7 @@ export default function Contact() {
       {/* Map */}
       <section className="pb-0">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2516.8!2d5.3523!3d50.9295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c12185e5e1e46d%3A0x4a6a4b7f8b3a3e2f!2sKempische%20Steenweg%20565%2C%203500%20Hasselt!5e0!3m2!1snl!2sbe!4v1700000000000"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1258.4!2d5.3520!3d50.9298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c121f6e4b8e8a1%3A0x1!2sZorgpraktijk+Kadans!5e0!3m2!1snl!2sbe!4v1700000000000"
           width="100%"
           height="300"
           style={{ border: 0 }}

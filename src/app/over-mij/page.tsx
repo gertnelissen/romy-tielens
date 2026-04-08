@@ -103,7 +103,7 @@ export default function OverMij() {
             </h2>
             <div className="bg-sage-50 border border-sage-200 rounded-xl p-6">
               <p className="text-stone-700 leading-relaxed mb-3">
-                Momenteel volg ik de postgraduaat{" "}
+                Momenteel volg ik het postgraduaat{" "}
                 <strong className="text-sage-800">
                   Integrale Orthomoleculaire Gezondheidszorg (kPNI)
                 </strong>{" "}

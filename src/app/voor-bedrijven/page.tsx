@@ -108,7 +108,7 @@ export default function VoorBedrijven() {
             {topics.map((topic) => (
               <div
                 key={topic}
-                className="bg-white rounded-lg px-4 py-3 text-sm text-stone-700 text-center shadow-sm"
+                className="bg-white rounded-lg px-4 py-4 text-sm text-stone-700 text-center shadow-sm flex items-center justify-center min-h-[56px]"
               >
                 {topic}
               </div>

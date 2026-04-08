@@ -79,7 +79,7 @@ export default function Praktisch() {
             <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Locaties
             </h2>
-            <div className="grid sm:grid-cols-3 gap-4">
+            <div className="grid sm:grid-cols-2 gap-4">
               <div className="bg-white border border-stone-200 rounded-xl p-5">
                 <p className="font-semibold text-sage-800 mb-1">
                   Zorgpraktijk Kadans
@@ -102,12 +102,21 @@ export default function Praktisch() {
               </div>
               <div className="bg-white border border-stone-200 rounded-xl p-5">
                 <p className="font-semibold text-sage-800 mb-1">
+                  Thuispraktijk
+                </p>
+                <p className="text-stone-600 text-sm">
+                  Luchtvaartstraat
+                  <br />
+                  3500 Hasselt
+                </p>
+              </div>
+              <div className="bg-white border border-stone-200 rounded-xl p-5">
+                <p className="font-semibold text-sage-800 mb-1">
                   Online sessie
                 </p>
                 <p className="text-stone-600 text-sm">
-                  Via videogesprek
-                  <br />
-                  vanuit je eigen vertrouwde omgeving
+                  Via videogesprek, vanuit je eigen
+                  vertrouwde omgeving
                 </p>
               </div>
             </div>
