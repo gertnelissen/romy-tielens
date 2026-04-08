@@ -14,7 +14,7 @@ export default function Home() {
             <p className="text-base text-stone-700 max-w-lg mb-8 leading-relaxed">
               Klinisch psycholoog en integratief psychotherapeut met meer dan
               7 jaar ervaring in de psychiatrie. Ik begeleid volwassenen in
-              Hasselt en online bij angst, burn-out, depressie en meer.
+              Hasselt bij angst, burn-out, depressie en meer.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
