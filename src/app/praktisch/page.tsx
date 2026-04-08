@@ -33,7 +33,7 @@ export default function Praktisch() {
                   <p className="font-semibold text-sage-800">
                     Individueel gesprek
                   </p>
-                  <p className="text-sm text-stone-600">50 - 60 minuten</p>
+                  <p className="text-base text-stone-600">50 - 60 minuten</p>
                 </div>
                 <p className="text-2xl font-semibold text-sage-800">
                   &euro;75
@@ -44,7 +44,7 @@ export default function Praktisch() {
                   <p className="font-semibold text-sage-800">
                     Eerstelijnspsychologie (ELP)
                   </p>
-                  <p className="text-sm text-stone-600">
+                  <p className="text-base text-stone-600">
                     Via doorverwijzing huisarts
                   </p>
                 </div>
@@ -145,7 +145,7 @@ export default function Praktisch() {
               ))}
             </div>
             <div className="mt-3 bg-sage-50 border border-sage-200 rounded-xl p-4">
-              <p className="text-sm text-stone-700">
+              <p className="text-base text-stone-700">
                 <strong className="text-sage-800">Wachtlijst:</strong>{" "}
                 Momenteel is er een wachttijd van ongeveer 1 maand. Neem gerust
                 al contact op zodat ik je op de wachtlijst kan plaatsen.
@@ -179,7 +179,7 @@ export default function Praktisch() {
                   </span>
                   <div>
                     <p className="font-semibold text-sage-800">{step}</p>
-                    <p className="text-sm text-stone-600">{text}</p>
+                    <p className="text-base text-stone-600">{text}</p>
                   </div>
                 </li>
               ))}
@@ -219,7 +219,7 @@ export default function Praktisch() {
                   className="border-b border-stone-200 pb-4"
                 >
                   <p className="font-medium text-sage-800 mb-1">{q}</p>
-                  <p className="text-sm text-stone-600 leading-relaxed">{a}</p>
+                  <p className="text-base text-stone-600 leading-relaxed">{a}</p>
                 </div>
               ))}
             </div>

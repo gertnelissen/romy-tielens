@@ -32,7 +32,7 @@ export default function Contact() {
               <h2 className="font-semibold text-sage-800 mb-2">
                 Rechtstreeks contacteren
               </h2>
-              <ul className="text-sm text-stone-700 space-y-2">
+              <ul className="text-base text-stone-700 space-y-2">
                 <li>
                   <a
                     href="mailto:romy@praktijkkadans.be"
@@ -56,7 +56,7 @@ export default function Contact() {
               <h2 className="font-semibold text-sage-800 mb-2">
                 Locaties &amp; beschikbaarheid
               </h2>
-              <p className="text-sm text-stone-700 mb-2">
+              <p className="text-base text-stone-700 mb-2">
                 Sessies vinden plaats in Zorgpraktijk Kadans, Jessa Ziekenhuis,
                 thuispraktijk of online.
               </p>
@@ -69,7 +69,7 @@ export default function Contact() {
             </div>
 
             <div className="bg-sage-50 border border-sage-200 rounded-xl p-5">
-              <p className="text-sm text-stone-700 leading-relaxed">
+              <p className="text-base text-stone-700 leading-relaxed">
                 <strong className="text-sage-800">
                   Eerste keer contact opnemen?
                 </strong>{" "}

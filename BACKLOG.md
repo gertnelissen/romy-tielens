@@ -2,11 +2,11 @@
 
 ## Prioriteit: Kritiek
 
-- [ ] **#1** Crisisinfo toevoegen aan zelfverwonding-pagina en footer (Zelfmoordlijn 1813). Ethische verplichting.
-- [ ] **#2** Contact-link in navigatie stylen als opvallende CTA-button (niet als gewone link).
-- [ ] **#3** Telefoonnummer zichtbaar in header (desktop) en sticky call-button (mobiel).
-- [ ] **#4** Homepage-kaartjes (Angst, Depressie, etc.) klikbaar maken → linken naar /aanbod/[slug].
-- [ ] **#5** Tekst body vergroten van 14px naar 16px voor alle patiënt-gerichte content.
+- [x] **#1** Crisisinfo toevoegen aan zelfverwonding-pagina en footer (Zelfmoordlijn 1813). Ethische verplichting.
+- [x] **#2** Contact-link in navigatie stylen als opvallende CTA-button (niet als gewone link).
+- [x] **#3** Telefoonnummer zichtbaar in header (desktop) en in mobiel menu.
+- [x] **#4** Homepage-kaartjes (Angst, Depressie, etc.) klikbaar maken → linken naar /aanbod/[slug].
+- [x] **#5** Tekst body vergroten van 14px naar 16px voor alle patiënt-gerichte content.
 
 ## Prioriteit: Hoog — UX
 

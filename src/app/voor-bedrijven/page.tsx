@@ -89,7 +89,7 @@ export default function VoorBedrijven() {
                 <h3 className="font-semibold text-sage-800 text-lg mb-3">
                   {title}
                 </h3>
-                <p className="text-sm text-stone-600 leading-relaxed">
+                <p className="text-base text-stone-600 leading-relaxed">
                   {description}
                 </p>
               </div>
@@ -108,7 +108,7 @@ export default function VoorBedrijven() {
             {topics.map((topic) => (
               <div
                 key={topic}
-                className="bg-white rounded-lg px-4 py-4 text-sm text-stone-700 text-center shadow-sm flex items-center justify-center min-h-[56px]"
+                className="bg-white rounded-lg px-4 py-4 text-base text-stone-700 text-center shadow-sm flex items-center justify-center min-h-[56px]"
               >
                 {topic}
               </div>
@@ -140,7 +140,7 @@ export default function VoorBedrijven() {
             ].map(({ stat, text }) => (
               <div key={stat}>
                 <p className="font-semibold text-sage-800 mb-2">{stat}</p>
-                <p className="text-sm text-stone-600 leading-relaxed">
+                <p className="text-base text-stone-600 leading-relaxed">
                   {text}
                 </p>
               </div>

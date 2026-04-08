@@ -82,7 +82,7 @@ export default function Doorverwijzers() {
                 <p className="font-medium text-sage-800 mb-2">
                   Ik werk met:
                 </p>
-                <ul className="text-sm text-stone-600 space-y-1">
+                <ul className="text-base text-stone-600 space-y-1">
                   <li>Volwassenen (18+)</li>
                   <li>Individuele therapie</li>
                   <li>Online sessies mogelijk</li>
@@ -92,7 +92,7 @@ export default function Doorverwijzers() {
                 <p className="font-medium text-sage-800 mb-2">
                   Specialisaties:
                 </p>
-                <ul className="text-sm text-stone-600 space-y-1">
+                <ul className="text-base text-stone-600 space-y-1">
                   <li>Angst &amp; paniek</li>
                   <li>Depressie &amp; somberheid</li>
                   <li>Burn-out &amp; stress</li>
@@ -138,7 +138,7 @@ export default function Doorverwijzers() {
                   </span>
                   <div>
                     <p className="font-semibold text-sage-800">{step}</p>
-                    <p className="text-sm text-stone-600">{text}</p>
+                    <p className="text-base text-stone-600">{text}</p>
                   </div>
                 </li>
               ))}

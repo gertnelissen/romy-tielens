@@ -110,7 +110,7 @@ export default function Aanbod() {
                       <span className="text-sage-400 ml-1">&rarr;</span>
                     )}
                   </h3>
-                  <p className="text-sm text-stone-600 leading-relaxed">
+                  <p className="text-base text-stone-600 leading-relaxed">
                     {description}
                   </p>
                 </>

@@ -103,7 +103,34 @@ export default async function AanbodDetail({
             </div>
           )}
 
-          <div className="bg-sage-50 border border-sage-200 rounded-xl p-6 text-sm text-stone-700 leading-relaxed">
+          {slug === "zelfverwonding" && (
+            <div className="bg-stone-100 border-l-4 border-sage-600 p-4 rounded-r-lg">
+              <p className="text-base text-sage-800 font-semibold mb-1">
+                In nood?
+              </p>
+              <p className="text-base text-stone-700">
+                Bel de Zelfmoordlijn:{" "}
+                <a
+                  href="tel:1813"
+                  className="font-semibold text-sage-700 hover:text-sage-800"
+                >
+                  1813
+                </a>{" "}
+                (gratis, 24/7). Je kunt ook chatten via{" "}
+                <a
+                  href="https://www.zelfmoord1813.be"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sage-600 hover:text-sage-700 underline"
+                >
+                  zelfmoord1813.be
+                </a>
+                .
+              </p>
+            </div>
+          )}
+
+          <div className="bg-sage-50 border border-sage-200 rounded-xl p-6 text-base text-stone-700 leading-relaxed">
             <p className="font-semibold text-sage-800 mb-2">Praktisch</p>
             <p>
               Sessies duren 50-60 minuten. Tarief: €75 (individueel) of €85
@@ -115,11 +142,11 @@ export default async function AanbodDetail({
           <div className="text-center pt-4">
             <Link
               href="/contact"
-              className="inline-block bg-sage-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-sage-700 transition-colors"
+              className="inline-block bg-sage-600 text-white px-8 py-3 rounded-lg text-base font-semibold hover:bg-sage-700 transition-colors"
             >
               Neem contact op
             </Link>
-            <p className="text-xs text-stone-500 mt-3">
+            <p className="text-sm text-stone-500 mt-3">
               Huidige wachttijd: ~1 maand
             </p>
           </div>

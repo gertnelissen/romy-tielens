@@ -88,7 +88,7 @@ export default function OverMij() {
               ].map((method) => (
                 <li
                   key={method}
-                  className="bg-sage-50 rounded-lg px-4 py-3 text-sm text-sage-700"
+                  className="bg-sage-50 rounded-lg px-4 py-3 text-base text-sage-700"
                 >
                   {method}
                 </li>
@@ -124,7 +124,7 @@ export default function OverMij() {
             <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Erkenningen
             </h2>
-            <div className="grid sm:grid-cols-3 gap-4 text-sm text-stone-600">
+            <div className="grid sm:grid-cols-3 gap-4 text-base text-stone-600">
               <div>
                 <p className="font-medium text-sage-800">Visumnummer</p>
                 <p>261431</p>

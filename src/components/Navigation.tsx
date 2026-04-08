@@ -10,7 +10,6 @@ const links = [
   { href: "/aanbod", label: "Aanbod" },
   { href: "/voor-bedrijven", label: "Voor bedrijven" },
   { href: "/praktisch", label: "Praktisch" },
-  { href: "/contact", label: "Contact" },
 ];
 
 export function Navigation() {
@@ -28,28 +27,45 @@ export function Navigation() {
         </Link>
 
         {/* Desktop */}
-        <ul className="hidden md:flex gap-8">
-          {links.map(({ href, label }) => (
-            <li key={href}>
-              <Link
-                href={href}
-                className={`text-sm tracking-wide transition-colors hover:text-sage-600 ${
-                  pathname === href
-                    ? "text-sage-700 font-semibold"
-                    : "text-sage-800/70"
-                }`}
-              >
-                {label}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <div className="hidden md:flex items-center gap-8">
+          <ul className="flex gap-8">
+            {links.map(({ href, label }) => (
+              <li key={href}>
+                <Link
+                  href={href}
+                  className={`text-sm tracking-wide transition-colors hover:text-sage-600 ${
+                    pathname === href
+                      ? "text-sage-700 font-semibold"
+                      : "text-sage-800/70"
+                  }`}
+                >
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <div className="flex items-center gap-3 ml-2">
+            <a
+              href="tel:+32497605892"
+              className="text-sm text-stone-500 hover:text-sage-700 transition-colors hidden lg:block"
+            >
+              0497 / 60 58 92
+            </a>
+            <Link
+              href="/contact"
+              className="bg-sage-600 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:bg-sage-700 transition-colors"
+            >
+              Contact
+            </Link>
+          </div>
+        </div>
 
         {/* Mobile toggle */}
         <button
           className="md:hidden text-sage-700 p-2"
           onClick={() => setOpen(!open)}
-          aria-label="Menu"
+          aria-label={open ? "Menu sluiten" : "Menu openen"}
+          aria-expanded={open}
         >
           <svg
             className="w-6 h-6"
@@ -78,23 +94,38 @@ export function Navigation() {
 
       {/* Mobile menu */}
       {open && (
-        <ul className="md:hidden px-6 pb-4 space-y-3 border-t border-sage-100">
-          {links.map(({ href, label }) => (
-            <li key={href}>
-              <Link
-                href={href}
-                className={`block py-1 text-sm ${
-                  pathname === href
-                    ? "text-sage-700 font-semibold"
-                    : "text-sage-800/70"
-                }`}
-                onClick={() => setOpen(false)}
-              >
-                {label}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <div className="md:hidden px-6 pb-4 space-y-3 border-t border-sage-100">
+          <ul className="space-y-3 pt-3">
+            {links.map(({ href, label }) => (
+              <li key={href}>
+                <Link
+                  href={href}
+                  className={`block py-1 text-sm ${
+                    pathname === href
+                      ? "text-sage-700 font-semibold"
+                      : "text-sage-800/70"
+                  }`}
+                  onClick={() => setOpen(false)}
+                >
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <Link
+            href="/contact"
+            className="block bg-sage-600 text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-sage-700 transition-colors text-center"
+            onClick={() => setOpen(false)}
+          >
+            Maak een afspraak
+          </Link>
+          <a
+            href="tel:+32497605892"
+            className="block text-center text-sm text-stone-500 hover:text-sage-700 transition-colors"
+          >
+            0497 / 60 58 92
+          </a>
+        </div>
       )}
     </header>
   );

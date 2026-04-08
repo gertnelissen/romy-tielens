@@ -51,6 +51,18 @@ export function Footer() {
           </ul>
         </div>
       </div>
+      <div className="border-t border-sage-700 py-4 px-6 text-center">
+        <p className="text-sm text-sage-300">
+          In nood? Bel de Zelfmoordlijn:{" "}
+          <a
+            href="tel:1813"
+            className="font-semibold text-white hover:text-sage-100"
+          >
+            1813
+          </a>{" "}
+          (gratis, 24/7)
+        </p>
+      </div>
       <div className="border-t border-sage-700 py-4 px-6">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-sage-400">
           <p>&copy; {new Date().getFullYear()} Romy Tielens</p>
