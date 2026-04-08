@@ -45,12 +45,6 @@ export function Navigation() {
             ))}
           </ul>
           <div className="flex items-center gap-3 ml-2">
-            <a
-              href="tel:+32497605892"
-              className="text-sm text-stone-500 hover:text-sage-700 transition-colors hidden lg:block"
-            >
-              0497 / 60 58 92
-            </a>
             <Link
               href="/contact"
               className="bg-sage-600 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:bg-sage-700 transition-colors"
@@ -119,12 +113,6 @@ export function Navigation() {
           >
             Maak een afspraak
           </Link>
-          <a
-            href="tel:+32497605892"
-            className="block text-center text-sm text-stone-500 hover:text-sage-700 transition-colors"
-          >
-            0497 / 60 58 92
-          </a>
         </div>
       )}
     </header>

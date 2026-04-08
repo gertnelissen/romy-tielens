@@ -49,6 +49,33 @@ export default async function AanbodDetail({
 
       <section className="py-12">
         <div className="max-w-3xl mx-auto px-6 space-y-8">
+          {slug === "zelfverwonding" && (
+            <div className="bg-stone-100 border-l-4 border-sage-600 p-4 rounded-r-lg">
+              <p className="text-base text-sage-800 font-semibold mb-1">
+                In nood?
+              </p>
+              <p className="text-base text-stone-700">
+                Bel de Zelfmoordlijn:{" "}
+                <a
+                  href="tel:1813"
+                  className="font-semibold text-sage-700 hover:text-sage-800"
+                >
+                  1813
+                </a>{" "}
+                (gratis, 24/7). Je kunt ook chatten via{" "}
+                <a
+                  href="https://www.zelfmoord1813.be"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sage-600 hover:text-sage-700 underline"
+                >
+                  zelfmoord1813.be
+                </a>
+                .
+              </p>
+            </div>
+          )}
+
           {page.herkenning.length > 0 && (
             <div>
               <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
@@ -100,33 +127,6 @@ export default async function AanbodDetail({
                   <p key={i}>{p}</p>
                 ))}
               </div>
-            </div>
-          )}
-
-          {slug === "zelfverwonding" && (
-            <div className="bg-stone-100 border-l-4 border-sage-600 p-4 rounded-r-lg">
-              <p className="text-base text-sage-800 font-semibold mb-1">
-                In nood?
-              </p>
-              <p className="text-base text-stone-700">
-                Bel de Zelfmoordlijn:{" "}
-                <a
-                  href="tel:1813"
-                  className="font-semibold text-sage-700 hover:text-sage-800"
-                >
-                  1813
-                </a>{" "}
-                (gratis, 24/7). Je kunt ook chatten via{" "}
-                <a
-                  href="https://www.zelfmoord1813.be"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sage-600 hover:text-sage-700 underline"
-                >
-                  zelfmoord1813.be
-                </a>
-                .
-              </p>
             </div>
           )}
 
