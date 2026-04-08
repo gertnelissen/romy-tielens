@@ -3,6 +3,21 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAanbodPage, getAanbodSlugs } from "@/lib/content";
 
+const relatedTopics: Record<string, string[]> = {
+  "burn-out": ["depressie", "perfectionisme"],
+  angst: ["perfectionisme", "hoogsensitiviteit"],
+  depressie: ["burn-out", "rouw"],
+  trauma: ["angst", "zelfverwonding"],
+  perfectionisme: ["burn-out", "angst"],
+  rouw: ["depressie", "trauma"],
+  relatieconflicten: ["hoogsensitiviteit", "perfectionisme"],
+  hoogsensitiviteit: ["angst", "burn-out"],
+  vruchtbaarheid: ["rouw", "postpartum"],
+  postpartum: ["depressie", "vruchtbaarheid"],
+  zelfverwonding: ["trauma", "depressie"],
+  middelengebruik: ["trauma", "depressie"],
+};
+
 export async function generateStaticParams() {
   return getAanbodSlugs().map((slug) => ({ slug }));
 }
@@ -30,16 +45,54 @@ export default async function AanbodDetail({
   const page = getAanbodPage(slug);
   if (!page) notFound();
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://romytielens.be",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Aanbod",
+        item: "https://romytielens.be/aanbod",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: page.title,
+        item: `https://romytielens.be/aanbod/${slug}`,
+      },
+    ],
+  };
+
+  const related = (relatedTopics[slug] ?? [])
+    .map((s) => {
+      const p = getAanbodPage(s);
+      return p ? { slug: s, title: p.title } : null;
+    })
+    .filter(Boolean) as { slug: string; title: string }[];
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <section className="bg-sage-50 py-12">
         <div className="max-w-3xl mx-auto px-6">
-          <p className="text-sage-600 text-sm font-medium mb-2">
-            <Link href="/aanbod" className="hover:text-sage-700">
-              Aanbod
-            </Link>{" "}
-            / {page.title}
-          </p>
+          <nav aria-label="Breadcrumb">
+            <p className="text-sage-600 text-sm font-medium mb-2">
+              <Link href="/aanbod" className="hover:text-sage-700">
+                Aanbod
+              </Link>{" "}
+              / {page.title}
+            </p>
+          </nav>
           <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl text-sage-800 mb-4">
             {page.title}
           </h1>
@@ -89,6 +142,7 @@ export default async function AanbodDetail({
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
+                      aria-hidden="true"
                     >
                       <path
                         strokeLinecap="round"
@@ -139,10 +193,29 @@ export default async function AanbodDetail({
             </p>
           </div>
 
+          {related.length > 0 && (
+            <div>
+              <p className="text-base text-stone-600">
+                Lees ook:{" "}
+                {related.map((r, i) => (
+                  <span key={r.slug}>
+                    {i > 0 && ", "}
+                    <Link
+                      href={`/aanbod/${r.slug}`}
+                      className="text-sage-600 hover:text-sage-700 underline"
+                    >
+                      {r.title}
+                    </Link>
+                  </span>
+                ))}
+              </p>
+            </div>
+          )}
+
           <div className="text-center pt-4">
             <Link
               href="/contact"
-              className="inline-block bg-sage-600 text-white px-8 py-3 rounded-lg text-base font-semibold hover:bg-sage-700 transition-colors"
+              className="inline-block bg-accent-600 text-white px-8 py-3 rounded-lg text-base font-semibold hover:bg-accent-700 transition-colors"
             >
               Neem contact op
             </Link>

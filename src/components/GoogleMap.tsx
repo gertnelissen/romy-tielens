@@ -44,15 +44,27 @@ export function GoogleMap() {
   }
 
   return (
-    <iframe
-      src={MAP_SRC}
-      width="100%"
-      height="300"
-      style={{ border: 0 }}
-      allowFullScreen
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-      title="Zorgpraktijk Kadans — Kempische Steenweg 565, Hasselt"
-    />
+    <div>
+      <iframe
+        src={MAP_SRC}
+        width="100%"
+        height="300"
+        style={{ border: 0 }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        title="Zorgpraktijk Kadans — Kempische Steenweg 565, Hasselt"
+      />
+      <p className="text-center py-2">
+        <a
+          href="https://www.google.com/maps/place/Kadans/@50.9703005,5.3607769,17z"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-sage-600 hover:text-sage-700 transition-colors"
+        >
+          Bekijk op Google Maps
+        </a>
+      </p>
+    </div>
   );
 }

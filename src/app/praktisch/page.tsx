@@ -1,9 +1,15 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Praktisch | Romy Tielens",
   description:
     "Tarieven, locaties, terugbetaling en veelgestelde vragen. Psycholoog in Hasselt.",
+  openGraph: {
+    title: "Praktisch | Romy Tielens",
+    description:
+      "Tarieven, locaties, terugbetaling en veelgestelde vragen over psychologische begeleiding in Hasselt.",
+  },
 };
 
 const faqSchema = {
@@ -206,7 +212,7 @@ export default function Praktisch() {
                 },
                 {
                   step: "Traject",
-                  text: "We spreken samen een plan af en starten met de begeleiding, op jouw tempo.",
+                  text: "We spreken samen een plan af en starten met de begeleiding.",
                 },
               ].map(({ step, text }, i) => (
                 <li key={step} className="flex gap-4">
@@ -220,6 +226,13 @@ export default function Praktisch() {
                 </li>
               ))}
             </ol>
+            <div className="mt-5 bg-sage-50 border border-sage-200 rounded-xl p-5">
+              <p className="text-base text-stone-700 leading-relaxed">
+                Een eerste gesprek is altijd vrijblijvend. Je hoeft niet precies
+                te weten wat er aan de hand is — dat zoeken we samen uit. Er is
+                geen druk om alles meteen te vertellen.
+              </p>
+            </div>
           </div>
 
           {/* FAQ */}
@@ -227,7 +240,7 @@ export default function Praktisch() {
             <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
               Veelgestelde vragen
             </h2>
-            <div className="space-y-4">
+            <div className="space-y-0">
               {[
                 {
                   q: "Hoe lang duurt een therapietraject?",
@@ -250,13 +263,24 @@ export default function Praktisch() {
                   a: "Annuleren kan tot 24 uur op voorhand. Bij laattijdige annulering of het niet opdagen wordt de sessie aangerekend.",
                 },
               ].map(({ q, a }) => (
-                <div
+                <details
                   key={q}
-                  className="border-b border-stone-200 pb-4"
+                  className="border-b border-stone-200 group"
                 >
-                  <p className="font-medium text-sage-800 mb-1">{q}</p>
-                  <p className="text-base text-stone-600 leading-relaxed">{a}</p>
-                </div>
+                  <summary className="flex justify-between items-center cursor-pointer py-4 font-medium text-sage-800 hover:text-sage-700 transition-colors list-none">
+                    {q}
+                    <svg
+                      className="w-5 h-5 text-stone-400 shrink-0 ml-4 transition-transform group-open:rotate-180"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </summary>
+                  <p className="text-base text-stone-700 leading-relaxed pb-4">{a}</p>
+                </details>
               ))}
             </div>
           </div>
@@ -271,6 +295,23 @@ export default function Praktisch() {
               <strong>Engels</strong>.
             </p>
           </div>
+        </div>
+      </section>
+
+      <section className="py-12">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
+            Klaar om een afspraak te maken?
+          </h2>
+          <p className="text-stone-700 mb-6">
+            Neem gerust contact op. Een eerste gesprek is altijd vrijblijvend.
+          </p>
+          <Link
+            href="/contact"
+            className="inline-block bg-accent-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors"
+          >
+            Neem contact op
+          </Link>
         </div>
       </section>
     </>

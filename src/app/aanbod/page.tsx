@@ -104,12 +104,12 @@ export default function Aanbod() {
             {topics.map(({ title, description, href }) => {
               const content = (
                 <>
-                  <h3 className="font-semibold text-sage-800 mb-2">
+                  <h2 className="font-semibold text-sage-800 mb-2">
                     {title}
                     {href && (
                       <span className="text-sage-400 ml-1">&rarr;</span>
                     )}
-                  </h3>
+                  </h2>
                   <p className="text-base text-stone-600 leading-relaxed">
                     {description}
                   </p>
@@ -141,7 +141,7 @@ export default function Aanbod() {
             </p>
             <Link
               href="/contact"
-              className="inline-block bg-sage-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-sage-700 transition-colors"
+              className="inline-block bg-accent-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors"
             >
               Neem contact op
             </Link>

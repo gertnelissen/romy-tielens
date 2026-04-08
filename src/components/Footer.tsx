@@ -69,13 +69,13 @@ export function Footer() {
           <div className="flex gap-4">
             <Link
               href="/doorverwijzers"
-              className="hover:text-sage-300 transition-colors"
+              className="hover:text-sage-300 transition-colors py-1"
             >
               Voor doorverwijzers
             </Link>
             <Link
               href="/privacy"
-              className="hover:text-sage-300 transition-colors"
+              className="hover:text-sage-300 transition-colors py-1"
             >
               Privacybeleid
             </Link>

@@ -23,7 +23,11 @@
   --color-stone-800: #3f4639;
   --color-stone-900: #2d322a;
 
-  --font-sans: var(--font-geist-sans);
+  --color-accent-500: #b5795a;
+  --color-accent-600: #9e6549;
+  --color-accent-700: #87543c;
+
+  --font-sans: var(--font-dm-sans);
   --font-serif: var(--font-dm-serif);
 }
 

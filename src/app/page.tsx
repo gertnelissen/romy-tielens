@@ -19,7 +19,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
                 href="/contact"
-                className="inline-block bg-sage-600 text-white px-7 py-3 rounded-lg text-sm font-semibold hover:bg-sage-700 transition-colors text-center"
+                className="inline-block bg-accent-600 text-white px-7 py-3 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors text-center"
               >
                 Maak een afspraak
               </Link>
@@ -93,7 +93,7 @@ export default function Home() {
                 href={`/aanbod/${slug}`}
                 className="bg-white rounded-xl p-4 text-sage-800 text-base shadow-sm flex items-center gap-3 hover:border-sage-300 hover:shadow-md transition-all border border-transparent"
               >
-                <svg className="w-5 h-5 text-sage-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-sage-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d={icon} />
                 </svg>
                 {label}
@@ -123,7 +123,7 @@ export default function Home() {
           </p>
           <Link
             href="/contact"
-            className="inline-block bg-sage-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-sage-700 transition-colors"
+            className="inline-block bg-accent-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors"
           >
             Neem contact op
           </Link>

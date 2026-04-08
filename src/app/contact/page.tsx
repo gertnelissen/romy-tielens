@@ -1,12 +1,22 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ContactForm } from "@/components/ContactForm";
+import dynamic from "next/dynamic";
 import { GoogleMap } from "@/components/GoogleMap";
+
+const ContactForm = dynamic(
+  () => import("@/components/ContactForm").then((m) => ({ default: m.ContactForm })),
+  { loading: () => <div className="h-96 animate-pulse bg-sage-50 rounded-xl" /> }
+);
 
 export const metadata: Metadata = {
   title: "Contact | Romy Tielens",
   description:
     "Neem contact op voor een afspraak of vraag. Psycholoog in Hasselt.",
+  openGraph: {
+    title: "Contact | Romy Tielens",
+    description:
+      "Neem contact op voor een afspraak bij psycholoog Romy Tielens in Hasselt. Vrijblijvend kennismakingsgesprek.",
+  },
 };
 
 export default function Contact() {

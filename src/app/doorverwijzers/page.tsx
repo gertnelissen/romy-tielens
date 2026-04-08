@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   title: "Voor doorverwijzers",
   description:
     "Informatie voor huisartsen en zorgverleners die patiënten willen doorverwijzen naar psycholoog Romy Tielens in Hasselt.",
+  openGraph: {
+    title: "Voor doorverwijzers | Romy Tielens",
+    description:
+      "Informatie voor huisartsen en zorgverleners over doorverwijzing naar psycholoog Romy Tielens in Hasselt.",
+  },
 };
 
 export default function Doorverwijzers() {
@@ -197,7 +202,7 @@ export default function Doorverwijzers() {
             </p>
             <Link
               href="/contact"
-              className="inline-block bg-sage-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-sage-700 transition-colors"
+              className="inline-block bg-accent-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors"
             >
               Neem contact op
             </Link>

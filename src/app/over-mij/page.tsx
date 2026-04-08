@@ -1,10 +1,16 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Over mij | Romy Tielens",
   description:
     "Klinisch psycholoog en integratief psychotherapeut met ruime ervaring in psychiatrie, dagtherapie en zelfstandige praktijk.",
+  openGraph: {
+    title: "Over mij | Romy Tielens",
+    description:
+      "Klinisch psycholoog en integratief psychotherapeut in Hasselt. Meer dan 7 jaar ervaring in psychiatrie en eerstelijn.",
+  },
 };
 
 export default function OverMij() {
@@ -147,6 +153,23 @@ export default function OverMij() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="py-12">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-4">
+            Klaar voor een eerste stap?
+          </h2>
+          <p className="text-stone-700 mb-6">
+            Neem gerust contact op voor een vrijblijvend kennismakingsgesprek.
+          </p>
+          <Link
+            href="/contact"
+            className="inline-block bg-accent-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors"
+          >
+            Neem contact op
+          </Link>
         </div>
       </section>
     </>

@@ -18,7 +18,7 @@ export function Navigation() {
 
   return (
     <header className="bg-stone-50/80 backdrop-blur-sm border-b border-stone-200 sticky top-0 z-50">
-      <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <nav aria-label="Hoofdnavigatie" className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link
           href="/"
           className="font-[family-name:var(--font-dm-serif)] text-xl text-sage-800 tracking-wide"
@@ -33,6 +33,7 @@ export function Navigation() {
               <li key={href}>
                 <Link
                   href={href}
+                  aria-current={pathname === href ? "page" : undefined}
                   className={`text-sm tracking-wide transition-colors hover:text-sage-600 ${
                     pathname === href
                       ? "text-sage-700 font-semibold"
@@ -47,7 +48,7 @@ export function Navigation() {
           <div className="flex items-center gap-3 ml-2">
             <Link
               href="/contact"
-              className="bg-sage-600 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:bg-sage-700 transition-colors"
+              className="bg-accent-600 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors"
             >
               Contact
             </Link>
@@ -88,13 +89,19 @@ export function Navigation() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden px-6 pb-4 space-y-3 border-t border-sage-100">
+        <div
+          className="md:hidden px-6 pb-4 space-y-3 border-t border-sage-100"
+          onKeyDown={(e) => {
+            if (e.key === "Escape") setOpen(false);
+          }}
+        >
           <ul className="space-y-3 pt-3">
             {links.map(({ href, label }) => (
               <li key={href}>
                 <Link
                   href={href}
-                  className={`block py-1 text-sm ${
+                  aria-current={pathname === href ? "page" : undefined}
+                  className={`block py-2.5 text-sm ${
                     pathname === href
                       ? "text-sage-700 font-semibold"
                       : "text-sage-800/70"
@@ -108,7 +115,7 @@ export function Navigation() {
           </ul>
           <Link
             href="/contact"
-            className="block bg-sage-600 text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-sage-700 transition-colors text-center"
+            className="block bg-accent-600 text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors text-center"
             onClick={() => setOpen(false)}
           >
             Maak een afspraak

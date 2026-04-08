@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   title: "Voor bedrijven | Romy Tielens",
   description:
     "Psychologische ondersteuning en welzijnsprogramma's voor bedrijven. Workshops, trainingen en individuele begeleiding.",
+  openGraph: {
+    title: "Voor bedrijven | Romy Tielens",
+    description:
+      "Workshops, trainingen en individuele begeleiding voor bedrijven. Investeer in het mentale welzijn van je medewerkers.",
+  },
 };
 
 const services = [
@@ -13,7 +18,7 @@ const services = [
     description:
       "Interactieve sessies op maat rond thema's als stressmanagement, burn-outpreventie, veerkracht, assertiviteit en werkgeluk. Geschikt voor teams van elke omvang.",
     icon: (
-      <svg className="w-8 h-8 text-sage-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg className="w-8 h-8 text-sage-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
       </svg>
     ),
@@ -23,7 +28,7 @@ const services = [
     description:
       "Vertrouwelijke psychologische ondersteuning voor medewerkers die vastlopen. Laagdrempelig en professioneel, met korte wachttijden.",
     icon: (
-      <svg className="w-8 h-8 text-sage-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg className="w-8 h-8 text-sage-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
       </svg>
     ),
@@ -33,7 +38,7 @@ const services = [
     description:
       "Ondersteuning bij het opzetten of versterken van een psychosociaal welzijnsbeleid. Advies op maat van jouw organisatie.",
     icon: (
-      <svg className="w-8 h-8 text-sage-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg className="w-8 h-8 text-sage-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
       </svg>
     ),
@@ -43,7 +48,7 @@ const services = [
     description:
       "Vanuit mijn opleiding in orthomoleculaire gezondheidszorg (kPNI) bied ik workshops en advies over de impact van voeding en leefstijl op mentale en fysieke vitaliteit op de werkvloer.",
     icon: (
-      <svg className="w-8 h-8 text-sage-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg className="w-8 h-8 text-sage-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
       </svg>
     ),
@@ -79,6 +84,9 @@ export default function VoorBedrijven() {
       {/* Services */}
       <section className="py-12">
         <div className="max-w-5xl mx-auto px-6">
+          <h2 className="font-[family-name:var(--font-dm-serif)] text-2xl text-sage-800 mb-8 text-center">
+            Aanbod voor bedrijven
+          </h2>
           <div className="grid md:grid-cols-2 gap-8">
             {services.map(({ title, description, icon }) => (
               <div
@@ -163,7 +171,7 @@ export default function VoorBedrijven() {
             </p>
             <Link
               href="/contact"
-              className="inline-block bg-sage-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-sage-700 transition-colors"
+              className="inline-block bg-accent-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-accent-700 transition-colors"
             >
               Neem contact op
             </Link>

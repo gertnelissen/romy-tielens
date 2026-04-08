@@ -40,7 +40,7 @@ export function ContactForm() {
           htmlFor="name"
           className="block text-sm font-medium text-sage-700 mb-1"
         >
-          Naam
+          Naam <span aria-hidden="true" className="text-accent-500">*</span>
         </label>
         <input
           type="text"
@@ -56,7 +56,7 @@ export function ContactForm() {
           htmlFor="email"
           className="block text-sm font-medium text-sage-700 mb-1"
         >
-          E-mail
+          E-mail <span aria-hidden="true" className="text-accent-500">*</span>
         </label>
         <input
           type="email"
@@ -87,7 +87,7 @@ export function ContactForm() {
           htmlFor="message"
           className="block text-sm font-medium text-sage-700 mb-1"
         >
-          Bericht
+          Bericht <span aria-hidden="true" className="text-accent-500">*</span>
         </label>
         <textarea
           id="message"
@@ -126,7 +126,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={state.submitting}
-        className="bg-sage-600 text-white px-8 py-3 rounded-lg text-base font-semibold hover:bg-sage-700 transition-colors w-full disabled:opacity-50 disabled:cursor-not-allowed"
+        className="bg-accent-600 text-white px-8 py-3 rounded-lg text-base font-semibold hover:bg-accent-700 transition-colors w-full disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {state.submitting ? "Versturen..." : "Verstuur bericht"}
       </button>
