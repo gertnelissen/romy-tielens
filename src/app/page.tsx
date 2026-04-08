@@ -5,7 +5,7 @@ export default function Home() {
     <>
       {/* Hero with photo */}
       <section className="bg-sage-50">
-        <div className="max-w-5xl mx-auto px-6 py-14 md:py-16 grid md:grid-cols-[1fr_320px] gap-10 items-center">
+        <div className="max-w-5xl mx-auto px-6 py-14 md:py-16 grid md:grid-cols-[1fr_340px] gap-10 items-center">
           <div>
             <h1 className="font-[family-name:var(--font-dm-serif)] text-4xl md:text-5xl text-sage-900 mb-5 leading-tight">
               Ruimte om te groeien, op jouw tempo
@@ -30,7 +30,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="rounded-2xl aspect-square overflow-hidden shadow-lg">
+          <div className="rounded-2xl aspect-[3/4] max-h-[420px] overflow-hidden shadow-lg">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/romy.jpg"
